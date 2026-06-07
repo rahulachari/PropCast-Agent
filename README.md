@@ -1,131 +1,269 @@
-# 🏗️ WallCraft — Lokesh Precast Walls
+# 🏠 PropCast Agent
+### AI-Powered Real Estate Forecasting Platform
+**Microsoft Agents League Hackathon 2026 — Creative Apps / GitHub Copilot Track**
 
-> A premium, single-file business website for **Lokesh Precast Walls** — a precast compound wall manufacturer and architectural concrete supplier based in India.
-
-🌐 **Live Demo:** [https://glittery-selkie-dcfb25.netlify.app/](https://glittery-selkie-dcfb25.netlify.app/)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![Django](https://img.shields.io/badge/Django-5.2-green?style=flat-square&logo=django)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.8-orange?style=flat-square&logo=scikit-learn)
+![Groq](https://img.shields.io/badge/Groq-LLaMA3-yellow?style=flat-square)
+![GitHub Copilot](https://img.shields.io/badge/Built%20with-GitHub%20Copilot-black?style=flat-square&logo=github)
 
 ---
 
-## 🚀 About the Project
+## 🚀 What is PropCast Agent?
 
-**WallCraft** is a fully responsive, zero-dependency business website designed and built for Lokesh Mudaliar (B.Arch), founder of Lokesh Precast Walls. The goal was to give the business a strong online presence — professional enough to attract contractors, builders, and developers, while being simple enough to host anywhere without a backend.
+PropCast Agent is an AI-powered real estate forecasting web application that helps buyers, sellers, and investors make smarter property decisions in the Hyderabad market. It combines **Machine Learning price prediction (92% accuracy)**, **interactive data visualisation**, and **Groq LLaMA-powered AI insights** — all in one platform.
 
-The entire site lives in **one HTML file** — no frameworks, no build tools, no npm install. Just open it in a browser and it works.
+Built entirely using **GitHub Copilot** as an AI development partner throughout the entire development process.
+
+---
+
+## 🧠 The Problem It Solves
+
+The Indian real estate market — especially Hyderabad — is booming. But:
+
+- Property prices are **unpredictable and scattered** across platforms
+- Buyers rely on **agent guesswork** instead of data
+- There is **no easy tool** to analyse market trends without expertise
+- First-time buyers and investors **miss opportunities** due to lack of insights
+
+**PropCast Agent fixes this** by giving anyone — technical or not — a data-driven platform to understand, predict, and act on real estate market trends.
 
 ---
 
 ## ✨ Features
 
-### 🎨 Visual Design
-- Custom animated cursor with hover state feedback
-- Full-screen parallax hero with animated grid lines and scanning effect
-- Smooth scroll-triggered reveal animations (CSS `@keyframes` + IntersectionObserver)
-- Auto-scrolling ticker banner with key business highlights
-- Dark/light section alternation for visual rhythm
-- Responsive layout down to mobile (375px)
-
-### 🧱 Interactive Wall Builder (Canvas)
-- Click-to-place compound wall panels, RCC pillars, and gate openings on a grid
-- Right-click or erase tool to remove elements
-- Click-drag to draw walls in a single stroke
-- Live stats: panel count, pillar count, gate count, % coverage
-- ⚡ Auto-fill boundary button that fills the plot perimeter
-- "Get This Quote" button triggers the contact form
-
-### 📐 Smart Project Estimator (Calculator)
-- Input: plot length (ft), width (ft), wall height, product type, number of gates
-- Output: perimeter, area, estimated unit count with a detailed note
-- Supports: Compound Walls, Cement Tiles, Paver Blocks
-- One-click redirect to the contact/quote form
-
-### 🗂️ Product Showcase
-Six product cards with full specifications:
-| Product | Details |
+| Feature | Description |
 |---|---|
-| Compound Walls | 4–7 ft heights, 8 ft panels, M25/M30 grade |
-| Cement Tiles | 12×12 to 24×24, multiple finishes |
-| RCC Pillars | 5–8 ft, Fe500 TMT steel |
-| Precast Slabs | 8–20 ft span, up to 5 kN/m² load |
-| Paver Blocks | Zigzag / Brick / Hex, 60–80 mm |
-| Custom Precast | Designed by Lokesh B.Arch, 7–14 day lead time |
-
-### 📍 Location & Contact
-- Embedded Google Maps iframe
-- WhatsApp direct link with pre-filled message
-- Contact form with name, phone, email, product interest, and project details fields
-- "Send on WhatsApp" button opens a prefilled WhatsApp message
-
-### 🖼️ Gallery
-- Horizontal drag-to-scroll photo gallery
-- 6 categorised project photos (Production, Installation, Structure, Architecture, Completed, Detail)
+| 📤 CSV Upload | Upload any Hyderabad property dataset |
+| 📊 Market Statistics | Instant descriptive analytics — avg price, price/sqft, distributions |
+| 📈 Interactive Charts | Plotly-powered charts — price trends, area comparisons, BHK analysis |
+| 🤖 ML Price Predictor | Random Forest model with **92% accuracy** |
+| 💬 AI Chat Assistant | Ask anything about the market — powered by Groq LLaMA 3 |
+| 🧾 AI Summary & Insights | Auto-generated market insights from your dataset |
+| 🔍 Property Comparison | Side-by-side comparison view with Plotly charts |
+| 📄 PDF Export | Download a full report — charts, predictions, insights |
 
 ---
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (custom properties, Grid, Flexbox, animations)
-- Vanilla JavaScript (Canvas API, IntersectionObserver, scroll events)
-- Google Fonts — Bebas Neue, DM Sans, Space Mono
-- Google Maps embed
-- Netlify (hosting)
-
-**Zero dependencies. No npm. No build step.**
+| Layer | Technology |
+|---|---|
+| Backend | Django 5.2 |
+| ML Model | Scikit-learn (Random Forest Regressor) |
+| Data Processing | Pandas, NumPy |
+| Charts | Plotly |
+| AI / LLM | Groq API (LLaMA 3) |
+| PDF Export | ReportLab |
+| Database | SQLite |
+| AI Dev Tool | GitHub Copilot (VS Code) |
 
 ---
 
-## ⚙️ How to Run
+## 📁 Project Structure
 
-No installation required.
-
-```bash
-# Clone the repo
-git clone https://github.com/rahulachari/PROJECT-LOKESH.git
-
-# Open in browser
-open lokesh_precast_FINAL_v4.html
+```
+PropCast-Agent/
+│
+├── PropCast/               # Django app — views, models, URLs
+├── core/                   # Core settings and configuration
+├── templates/              # HTML templates
+│   ├── compare.html        # Property comparison view
+│   └── properties_list.html
+├── media/                  # Uploaded CSV files (auto-created, gitignored)
+├── sample_properties.csv   # Sample Hyderabad dataset to get started
+├── create_sample.py        # Script to generate sample data
+├── manage.py               # Django entry point
+├── requirements.txt        # All Python dependencies
+├── Dockerfile              # Docker configuration
+├── COMPARISON_FEATURE_GUIDE.md
+└── PropCast_Complete_Guide.pdf
 ```
 
-Or just double-click the file. That's it.
+---
+
+## ⚙️ How to Run Locally
+
+### Prerequisites
+
+Make sure you have the following installed on your system:
+
+- **Python 3.10 or above** → [Download here](https://www.python.org/downloads/)
+- **pip** (comes with Python)
+- **Git** → [Download here](https://git-scm.com/)
+- A **Groq API key** (free) → [Get one here](https://console.groq.com/)
 
 ---
 
-## 🌐 Deployment
+### Step 1 — Clone the Repository
 
-Deployed on **Netlify** via drag-and-drop:
-
-1. Go to [netlify.com](https://netlify.com)
-2. Drag the `.html` file onto the deploy area
-3. Done — live in under 30 seconds
-
-Since it's a single file, no build configuration is needed.
+```bash
+git clone https://github.com/rahulachari/PropCast-Agent.git
+cd PropCast-Agent
+```
 
 ---
 
-## 🔮 Potential Improvements
+### Step 2 — Create a Virtual Environment
 
-- [ ] Backend form submission (Formspree / EmailJS integration)
-- [ ] Replace placeholder Unsplash images with real factory photos
-- [ ] Add WhatsApp Business API for automated quote responses
-- [ ] SEO meta tags + Open Graph for social sharing
-- [ ] Add more product SKUs and a price list section
-- [ ] Progressive Web App (PWA) for offline access
+**Windows:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Mac / Linux:**
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+You should see `(venv)` in your terminal — that means it's active.
 
 ---
 
-## 👤 About the Client
+### Step 3 — Install Dependencies
 
-**Lokesh Mudaliar** is a qualified architect (B.Arch) and founder of Lokesh Precast Walls. His factory produces RCC compound walls, cement tiles, paver blocks, precast slabs, and custom architectural concrete elements. The business serves residential, commercial, and industrial clients across the region.
+```bash
+pip install -r requirements.txt
+```
+
+This installs everything — Django, Pandas, Scikit-learn, Plotly, Groq, ReportLab, and all other required packages.
 
 ---
 
-## 👨‍💻 Built By
+### Step 4 — Set Up Environment Variables
 
-**Rahul Achari** — Frontend Developer  
-[GitHub](https://github.com/rahulachari) · [LinkedIn](https://www.linkedin.com/in/rahulyc/)
+Create a `.env` file in the root folder:
+
+```bash
+# Windows
+echo. > .env
+
+# Mac / Linux
+touch .env
+```
+
+Open the `.env` file and add:
+
+```
+GROQ_API_KEY=your_groq_api_key_here
+SECRET_KEY=your_django_secret_key_here
+DEBUG=True
+```
+
+> 🔑 Get your free Groq API key at [console.groq.com](https://console.groq.com/)
+> 
+> 🔐 For Django SECRET_KEY, you can generate one by running:
+> ```bash
+> python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
+> ```
+
+---
+
+### Step 5 — Run Database Migrations
+
+```bash
+python manage.py migrate
+```
+
+---
+
+### Step 6 — Start the Server
+
+```bash
+python manage.py runserver
+```
+
+Open your browser and go to:
+```
+http://127.0.0.1:8000
+```
+
+🎉 PropCast Agent is now running locally!
+
+---
+
+## 📂 Sample Dataset
+
+A sample Hyderabad property dataset is included in the repo — `sample_properties.csv`.
+
+Use this to test the app immediately after setup:
+1. Open the app in your browser
+2. Upload `sample_properties.csv`
+3. Explore stats, charts, predictions, and AI insights
+
+You can also generate a fresh sample dataset by running:
+```bash
+python create_sample.py
+```
+
+---
+
+## 🤖 GitHub Copilot — The AI Development Partner
+
+This entire project was built using **GitHub Copilot** in VS Code as an AI-assisted development tool. Copilot helped with:
+
+- Writing Django views and URL routing
+- Building optimised Pandas data pipelines
+- Completing Scikit-learn ML pipeline code
+- Generating Plotly chart configurations
+- Debugging and refactoring throughout development
+
+> GitHub Copilot didn't just autocomplete — it accelerated the entire development workflow, making it possible to build a full-stack AI platform within the hackathon timeline.
+
+---
+
+## 📊 ML Model Details
+
+- **Algorithm:** Random Forest Regressor
+- **Library:** Scikit-learn 1.8
+- **Accuracy:** 92%
+- **Features used:** Area (sq ft), Location, BHK, Property Type, Amenities
+- **Data:** Hyderabad real estate dataset (cleaned with Pandas)
+
+---
+
+## 🔑 Required API Keys
+
+| Service | Purpose | How to Get |
+|---|---|---|
+| Groq API | AI chat, summaries, insights | [console.groq.com](https://console.groq.com/) — Free tier available |
+
+---
+
+## 🐳 Run with Docker (Optional)
+
+If you prefer Docker:
+
+```bash
+docker build -t propcast-agent .
+docker run -p 8000:8000 propcast-agent
+```
+
+Then open `http://localhost:8000`
+
+---
+
+## 👤 About the Developer
+
+**Rahul Achari**
+B.Tech CSE Graduate — The Apollo University, Chittoor, Andhra Pradesh
+
+- 🐙 GitHub: [github.com/rahulachari](https://github.com/rahulachari)
+- 🌐 Portfolio: [rahulachari.github.io](https://rahulachari.github.io)
+
+---
+
+## 🏆 Hackathon
+
+Built for the **Microsoft Agents League Hackathon 2026**
+Track: 🎨 Creative Apps / GitHub Copilot
+Submission Deadline: June 14, 2026
 
 ---
 
 ## 📄 License
 
-MIT — free to fork, adapt, and use as a template for other business websites.
+This project is open source and available under the [MIT License](LICENSE).
