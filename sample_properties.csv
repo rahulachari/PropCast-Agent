@@ -1,31 +1,1851 @@
 Location,BHK,Area_sqft,Price_Lakhs,Age_Years,Parking,Status
-Gachibowli - Hyderabad,2,1200,85,3,Yes,Sold
-Kondapur - Hyderabad,3,1800,145,7,Yes,Available
-Banjara Hills - Hyderabad,4,3200,380,15,Yes,Sold
-Madhapur - Hyderabad,2,1100,72,2,No,Available
-Hitech City - Hyderabad,3,2100,210,5,Yes,Sold
-Whitefield - Bangalore,2,1300,95,4,Yes,Sold
-Koramangala - Bangalore,3,1900,220,8,Yes,Available
-Indiranagar - Bangalore,3,2000,280,10,Yes,Sold
-Electronic City - Bangalore,2,1100,68,3,No,Sold
-HSR Layout - Bangalore,3,1800,190,6,Yes,Available
-Andheri - Mumbai,2,950,180,12,No,Sold
-Bandra - Mumbai,4,2800,650,20,Yes,Available
-Powai - Mumbai,3,1700,320,8,Yes,Sold
-Thane - Mumbai,2,1050,120,5,No,Available
-Navi Mumbai - Mumbai,2,1000,110,4,No,Sold
-OMR - Chennai,2,1200,82,3,Yes,Sold
-Anna Nagar - Chennai,3,2100,195,15,Yes,Sold
-Velachery - Chennai,2,1100,78,6,No,Available
-Porur - Chennai,2,1000,65,4,No,Sold
-Tambaram - Chennai,2,950,55,8,No,Available
-Dwarka - Delhi,3,1500,150,10,Yes,Available
-Noida Sector 62 - Delhi,2,1100,95,3,No,Sold
-Gurgaon - Delhi,4,3000,480,18,Yes,Sold
-Rohini - Delhi,2,1200,110,7,Yes,Available
-Vasant Kunj - Delhi,3,2200,320,12,Yes,Sold
-Hinjewadi - Pune,2,1100,88,2,Yes,Sold
-Kothrud - Pune,3,1700,160,9,Yes,Available
-Wakad - Pune,2,1050,92,3,Yes,Sold
-Baner - Pune,3,1600,175,7,Yes,Sold
-Hadapsar - Pune,2,1000,70,5,No,Available
+Hitech City - Hyderabad,3,1517,120.88,7,Yes,Available
+Vasant Kunj - Delhi,4,2375,512.42,2,Yes,Available
+Koramangala - Bangalore,1,465,47.07,6,No,Available
+Hebbal - Bangalore,2,1024,87.13,6,No,Available
+Velachery - Chennai,3,1778,130.6,6,Yes,Available
+Hinjewadi - Pune,2,1002,66.92,0,No,Available
+Baner - Pune,2,1048,70.06,12,No,Available
+Powai - Mumbai,1,603,118.73,6,No,Available
+Andheri - Mumbai,3,1180,290.37,5,No,Available
+Anna Nagar - Chennai,2,1056,117.96,20,No,Available
+OMR - Chennai,4,2095,160.41,0,Yes,Sold
+Navi Mumbai - Mumbai,1,554,58.86,7,Yes,Available
+Porur - Chennai,2,1103,75.25,20,Yes,Available
+Whitefield - Bangalore,2,1085,94.18,10,No,Sold
+Navi Mumbai - Mumbai,4,2281,249.85,5,Yes,Available
+Whitefield - Bangalore,3,1624,122.0,7,Yes,Available
+Velachery - Chennai,2,910,66.75,4,Yes,Available
+Kukatpally - Hyderabad,1,526,31.96,2,Yes,Sold
+Powai - Mumbai,4,2193,672.66,1,Yes,Sold
+Sarjapur - Bangalore,2,1106,70.09,20,Yes,Sold
+Hebbal - Bangalore,2,1021,100.2,1,No,Sold
+Noida Sector 62 - Delhi,3,1559,126.91,20,No,Available
+Madhapur - Hyderabad,3,1741,144.82,1,No,Available
+Baner - Pune,4,2503,240.58,0,Yes,Available
+Powai - Mumbai,2,1145,284.62,12,No,Sold
+Tambaram - Chennai,3,1477,103.75,1,No,Sold
+Jubilee Hills - Hyderabad,3,1467,254.48,6,No,Available
+Powai - Mumbai,3,1716,389.36,5,Yes,Available
+HSR Layout - Bangalore,3,1674,138.93,12,Yes,Sold
+Andheri - Mumbai,4,2177,512.4,7,Yes,Sold
+Koramangala - Bangalore,2,1008,157.44,6,Yes,Sold
+OMR - Chennai,3,1626,117.34,0,Yes,Sold
+Noida Sector 62 - Delhi,1,539,37.76,4,No,Sold
+Rohini - Delhi,2,1166,99.66,6,Yes,Available
+Miyapur - Hyderabad,3,1567,101.11,3,Yes,Available
+Navi Mumbai - Mumbai,1,524,52.41,8,Yes,Sold
+Velachery - Chennai,1,541,39.15,1,Yes,Sold
+Hadapsar - Pune,4,2167,153.82,5,Yes,Sold
+Hinjewadi - Pune,2,1036,80.76,15,Yes,Sold
+Baner - Pune,2,967,75.33,2,No,Sold
+Koramangala - Bangalore,3,1411,220.35,0,Yes,Available
+Banjara Hills - Hyderabad,3,1699,249.65,5,Yes,Available
+Baner - Pune,4,2469,274.85,4,Yes,Sold
+Anna Nagar - Chennai,3,1654,220.36,12,Yes,Available
+Rohini - Delhi,4,2475,228.98,7,No,Sold
+Sarjapur - Bangalore,3,1660,120.05,4,Yes,Sold
+Baner - Pune,4,2671,211.5,8,Yes,Sold
+Madhapur - Hyderabad,4,2453,192.15,5,No,Sold
+Gurgaon - Delhi,2,917,134.88,7,Yes,Sold
+Hebbal - Bangalore,2,1043,97.91,5,No,Available
+Powai - Mumbai,3,1777,347.56,8,Yes,Sold
+Anna Nagar - Chennai,4,2378,307.7,1,Yes,Available
+Koramangala - Bangalore,2,986,122.25,10,Yes,Available
+Koramangala - Bangalore,1,590,59.75,12,Yes,Sold
+Miyapur - Hyderabad,2,1053,47.45,20,No,Sold
+Borivali - Mumbai,1,548,88.28,12,Yes,Sold
+Koramangala - Bangalore,4,2264,302.02,8,No,Sold
+Tambaram - Chennai,2,1069,70.99,3,Yes,Available
+Marathahalli - Bangalore,3,1557,138.99,0,Yes,Sold
+Kondapur - Hyderabad,3,1606,113.13,12,Yes,Sold
+Kothrud - Pune,3,1586,130.35,7,Yes,Available
+Rohini - Delhi,4,2469,257.12,6,Yes,Available
+Kukatpally - Hyderabad,4,2323,164.7,4,Yes,Sold
+Andheri - Mumbai,3,1768,401.1,5,No,Available
+Hitech City - Hyderabad,3,1573,118.58,8,No,Available
+Madhapur - Hyderabad,3,1596,96.8,12,No,Available
+Indiranagar - Bangalore,1,617,71.7,2,Yes,Sold
+Gachibowli - Hyderabad,3,1477,122.45,6,Yes,Available
+Miyapur - Hyderabad,4,2082,143.2,7,Yes,Available
+Whitefield - Bangalore,3,1657,115.3,8,Yes,Sold
+Sarjapur - Bangalore,3,1440,84.76,3,No,Available
+Navi Mumbai - Mumbai,2,941,97.58,12,Yes,Sold
+Electronic City - Bangalore,2,951,82.07,1,Yes,Available
+Velachery - Chennai,3,1607,132.25,5,Yes,Sold
+Miyapur - Hyderabad,1,542,27.71,3,Yes,Sold
+Banjara Hills - Hyderabad,3,1606,273.83,1,Yes,Sold
+Whitefield - Bangalore,2,1053,106.86,3,Yes,Sold
+Velachery - Chennai,2,957,76.55,20,Yes,Available
+Sarjapur - Bangalore,3,1690,93.92,12,Yes,Available
+Koramangala - Bangalore,1,520,56.31,5,Yes,Available
+OMR - Chennai,2,1111,69.39,6,No,Available
+HSR Layout - Bangalore,4,2662,309.47,5,Yes,Sold
+Kothrud - Pune,3,1546,163.45,1,Yes,Sold
+Indiranagar - Bangalore,3,1767,233.87,10,No,Available
+Dwarka - Delhi,2,1063,114.13,3,Yes,Sold
+Koramangala - Bangalore,3,1636,184.45,5,No,Available
+Hitech City - Hyderabad,2,1024,94.84,0,Yes,Available
+Porur - Chennai,3,1487,91.46,12,Yes,Sold
+Baner - Pune,3,1571,131.26,10,Yes,Sold
+Tambaram - Chennai,2,996,48.22,7,Yes,Available
+Hebbal - Bangalore,2,1085,95.16,3,Yes,Sold
+Noida Sector 62 - Delhi,2,1075,70.42,8,Yes,Available
+Vasant Kunj - Delhi,3,1503,238.13,6,Yes,Available
+Noida Sector 62 - Delhi,3,1368,96.85,2,No,Available
+Rohini - Delhi,3,1553,147.09,4,No,Sold
+Powai - Mumbai,2,1105,230.89,4,No,Sold
+Hitech City - Hyderabad,2,911,99.75,0,Yes,Available
+Anna Nagar - Chennai,2,1050,131.8,10,Yes,Sold
+Banjara Hills - Hyderabad,2,1070,161.88,10,No,Sold
+Kukatpally - Hyderabad,3,1479,102.28,10,Yes,Sold
+Sarjapur - Bangalore,2,1131,68.63,2,Yes,Available
+Whitefield - Bangalore,1,574,46.74,5,No,Available
+Bandra - Mumbai,2,1073,433.42,4,Yes,Available
+Thane - Mumbai,2,1003,99.73,6,Yes,Sold
+Thane - Mumbai,3,1440,170.86,5,Yes,Sold
+Gurgaon - Delhi,4,2350,345.54,4,No,Sold
+Jubilee Hills - Hyderabad,1,527,69.04,12,No,Available
+Miyapur - Hyderabad,1,487,22.16,4,Yes,Available
+Electronic City - Bangalore,2,944,58.66,7,No,Available
+Borivali - Mumbai,2,934,160.62,6,Yes,Available
+Powai - Mumbai,2,1066,324.8,2,Yes,Available
+Dwarka - Delhi,3,1809,207.96,2,Yes,Available
+Baner - Pune,3,1336,129.32,2,No,Available
+Tambaram - Chennai,2,924,58.87,3,Yes,Available
+Bandra - Mumbai,3,1661,738.66,5,Yes,Available
+Wakad - Pune,2,1089,72.31,7,Yes,Sold
+Hinjewadi - Pune,1,534,36.53,12,No,Available
+Vasant Kunj - Delhi,3,1596,288.74,7,Yes,Available
+Hadapsar - Pune,3,1394,83.15,2,Yes,Available
+Wakad - Pune,1,524,41.55,1,Yes,Available
+Porur - Chennai,2,1006,57.32,7,No,Available
+Jubilee Hills - Hyderabad,2,1099,190.46,5,Yes,Available
+Koramangala - Bangalore,1,495,51.01,12,No,Sold
+Hebbal - Bangalore,3,1799,132.6,7,Yes,Available
+Gurgaon - Delhi,3,1383,161.29,5,No,Sold
+Kukatpally - Hyderabad,3,1489,92.24,2,Yes,Available
+Kondapur - Hyderabad,4,2452,207.72,5,Yes,Sold
+Jubilee Hills - Hyderabad,2,955,148.06,7,Yes,Available
+Anna Nagar - Chennai,3,1804,205.12,6,Yes,Sold
+Baner - Pune,2,1044,75.72,8,Yes,Sold
+Baner - Pune,2,1052,102.98,0,No,Available
+Vasant Kunj - Delhi,3,1671,252.43,10,No,Available
+Electronic City - Bangalore,3,1748,94.2,7,Yes,Available
+Navi Mumbai - Mumbai,3,1632,158.23,10,Yes,Available
+Rohini - Delhi,1,495,32.7,7,Yes,Sold
+Velachery - Chennai,2,1187,101.79,7,Yes,Sold
+Hitech City - Hyderabad,3,1564,138.9,2,No,Available
+HSR Layout - Bangalore,2,1085,130.06,3,Yes,Available
+HSR Layout - Bangalore,2,954,91.76,8,No,Available
+Porur - Chennai,2,1036,65.85,7,Yes,Available
+Gachibowli - Hyderabad,4,2329,217.14,1,Yes,Sold
+Velachery - Chennai,2,1134,90.66,3,Yes,Available
+Kondapur - Hyderabad,2,1114,94.29,20,Yes,Sold
+Tambaram - Chennai,2,971,64.94,1,No,Available
+Powai - Mumbai,4,2150,524.49,10,Yes,Available
+Hinjewadi - Pune,2,1173,74.42,15,Yes,Sold
+Rohini - Delhi,3,1716,121.82,12,No,Sold
+Whitefield - Bangalore,3,1698,145.21,0,Yes,Available
+Miyapur - Hyderabad,3,1646,95.18,3,Yes,Available
+Noida Sector 62 - Delhi,2,1035,78.36,1,Yes,Available
+Dwarka - Delhi,3,1644,154.53,20,Yes,Available
+Koramangala - Bangalore,3,1749,233.07,10,Yes,Available
+Wakad - Pune,2,1053,103.72,1,No,Sold
+Baner - Pune,2,1212,97.05,4,Yes,Sold
+Koramangala - Bangalore,4,2347,270.83,6,No,Available
+Powai - Mumbai,2,939,289.27,0,Yes,Available
+Tambaram - Chennai,2,1142,54.62,6,Yes,Available
+Indiranagar - Bangalore,1,497,54.53,12,Yes,Sold
+Vasant Kunj - Delhi,3,1690,357.32,3,Yes,Available
+Marathahalli - Bangalore,2,1107,88.88,1,Yes,Sold
+Electronic City - Bangalore,3,1669,91.64,20,Yes,Available
+HSR Layout - Bangalore,2,1050,111.43,15,Yes,Sold
+Banjara Hills - Hyderabad,2,895,165.77,4,Yes,Sold
+Indiranagar - Bangalore,2,1078,132.54,12,No,Available
+Sarjapur - Bangalore,3,1921,151.93,2,Yes,Sold
+Thane - Mumbai,4,2295,370.97,3,No,Available
+Kothrud - Pune,3,1728,152.34,5,No,Sold
+Thane - Mumbai,2,847,80.82,12,Yes,Sold
+Hinjewadi - Pune,4,2278,200.64,7,Yes,Available
+Powai - Mumbai,2,1058,295.6,1,Yes,Available
+Noida Sector 62 - Delhi,1,510,32.8,7,No,Sold
+Powai - Mumbai,4,2331,534.27,5,Yes,Sold
+Electronic City - Bangalore,2,1056,68.7,6,No,Sold
+Powai - Mumbai,3,1301,350.73,2,No,Sold
+Navi Mumbai - Mumbai,2,1054,134.06,5,No,Available
+Hitech City - Hyderabad,2,1147,135.99,0,Yes,Sold
+Kothrud - Pune,3,1547,143.3,4,Yes,Available
+Andheri - Mumbai,3,1563,313.39,15,Yes,Available
+Sarjapur - Bangalore,3,1594,102.1,12,Yes,Sold
+Gachibowli - Hyderabad,4,2376,226.21,20,No,Available
+Vasant Kunj - Delhi,3,1794,370.87,4,Yes,Sold
+Hadapsar - Pune,3,1589,92.07,5,Yes,Available
+Borivali - Mumbai,2,943,153.52,0,No,Sold
+Banjara Hills - Hyderabad,3,1441,202.48,4,Yes,Available
+Sarjapur - Bangalore,1,556,42.57,3,No,Sold
+Madhapur - Hyderabad,3,1616,133.65,0,Yes,Sold
+Kukatpally - Hyderabad,3,1547,93.17,4,No,Sold
+Rohini - Delhi,3,1457,100.48,12,No,Sold
+Whitefield - Bangalore,1,630,49.43,12,Yes,Available
+Gachibowli - Hyderabad,4,2424,265.82,4,No,Available
+Kukatpally - Hyderabad,2,1147,75.47,12,Yes,Available
+Porur - Chennai,2,1103,93.59,5,Yes,Sold
+Anna Nagar - Chennai,2,1043,121.57,10,Yes,Available
+Sarjapur - Bangalore,2,882,53.69,6,No,Sold
+Koramangala - Bangalore,1,506,58.2,12,No,Available
+Kukatpally - Hyderabad,3,1604,100.2,10,No,Available
+Noida Sector 62 - Delhi,4,2505,189.43,3,Yes,Sold
+Hebbal - Bangalore,3,1657,151.7,1,Yes,Available
+Whitefield - Bangalore,3,1488,125.58,3,Yes,Sold
+Hitech City - Hyderabad,2,957,93.39,4,Yes,Sold
+Bandra - Mumbai,3,1591,531.12,12,Yes,Available
+Indiranagar - Bangalore,3,1787,245.82,6,Yes,Sold
+Kukatpally - Hyderabad,2,1019,67.35,15,Yes,Sold
+Thane - Mumbai,2,1087,144.65,3,Yes,Sold
+Hadapsar - Pune,2,1109,66.66,15,Yes,Sold
+Hinjewadi - Pune,2,1145,85.56,7,Yes,Sold
+Kondapur - Hyderabad,2,1026,72.93,20,Yes,Available
+Kondapur - Hyderabad,3,1773,182.79,1,Yes,Available
+Marathahalli - Bangalore,2,1070,63.76,20,No,Available
+Hadapsar - Pune,1,647,39.12,2,No,Available
+Kondapur - Hyderabad,3,1395,124.75,4,Yes,Sold
+Koramangala - Bangalore,2,1013,112.28,10,Yes,Sold
+Hitech City - Hyderabad,4,2247,214.19,10,No,Available
+Hitech City - Hyderabad,4,2668,278.67,6,Yes,Sold
+Kondapur - Hyderabad,2,1174,81.55,10,No,Available
+Madhapur - Hyderabad,2,1009,81.43,12,No,Available
+Indiranagar - Bangalore,3,1554,238.85,6,Yes,Available
+Electronic City - Bangalore,3,1641,113.75,4,No,Sold
+Tambaram - Chennai,2,1045,49.29,7,No,Sold
+Velachery - Chennai,3,1662,158.77,0,Yes,Available
+Jubilee Hills - Hyderabad,1,595,85.25,15,No,Sold
+Koramangala - Bangalore,2,1071,157.23,8,Yes,Available
+OMR - Chennai,3,1532,110.81,3,Yes,Available
+Powai - Mumbai,4,2214,627.5,4,Yes,Available
+Noida Sector 62 - Delhi,2,1005,74.08,3,Yes,Available
+Vasant Kunj - Delhi,3,1505,251.27,8,Yes,Sold
+Andheri - Mumbai,2,1182,214.41,2,No,Sold
+Hadapsar - Pune,3,1548,117.59,7,Yes,Available
+Dwarka - Delhi,2,1092,98.74,3,No,Available
+Miyapur - Hyderabad,3,1487,94.24,0,Yes,Sold
+Anna Nagar - Chennai,2,1096,138.07,3,Yes,Available
+Hitech City - Hyderabad,2,1108,87.87,8,Yes,Sold
+Kondapur - Hyderabad,2,904,71.17,5,No,Sold
+Baner - Pune,4,2162,236.68,5,Yes,Available
+Vasant Kunj - Delhi,2,1061,197.22,1,Yes,Sold
+Kondapur - Hyderabad,2,1182,94.81,10,Yes,Sold
+Whitefield - Bangalore,3,1448,105.29,4,No,Available
+Noida Sector 62 - Delhi,3,1717,138.51,8,No,Sold
+Miyapur - Hyderabad,2,1050,67.72,4,No,Sold
+Borivali - Mumbai,3,1597,312.62,1,Yes,Sold
+Kukatpally - Hyderabad,2,907,51.81,5,Yes,Sold
+Electronic City - Bangalore,2,1142,82.9,2,Yes,Available
+Miyapur - Hyderabad,2,990,51.34,12,Yes,Sold
+Navi Mumbai - Mumbai,2,889,81.84,6,Yes,Sold
+Tambaram - Chennai,2,1104,54.44,8,Yes,Sold
+Wakad - Pune,2,1105,86.08,10,No,Sold
+Gachibowli - Hyderabad,4,2568,235.2,7,No,Available
+Bandra - Mumbai,2,1046,510.89,1,Yes,Available
+Anna Nagar - Chennai,2,1168,127.11,4,Yes,Available
+Baner - Pune,2,1131,102.29,7,Yes,Available
+Sarjapur - Bangalore,3,1501,118.03,6,Yes,Sold
+Sarjapur - Bangalore,4,2577,232.49,2,Yes,Available
+Anna Nagar - Chennai,3,1617,184.34,4,Yes,Available
+Marathahalli - Bangalore,3,1609,127.54,6,Yes,Sold
+Borivali - Mumbai,1,492,100.51,5,Yes,Sold
+Vasant Kunj - Delhi,3,1457,271.36,5,Yes,Sold
+Gurgaon - Delhi,2,1101,144.4,8,Yes,Available
+Indiranagar - Bangalore,3,1498,190.28,3,No,Sold
+Vasant Kunj - Delhi,4,2307,386.43,10,Yes,Available
+Gachibowli - Hyderabad,2,988,74.39,8,Yes,Available
+Madhapur - Hyderabad,3,1721,125.61,5,No,Sold
+Vasant Kunj - Delhi,4,2494,601.31,5,Yes,Sold
+Andheri - Mumbai,2,1086,240.71,7,Yes,Available
+Baner - Pune,2,1106,93.29,10,Yes,Sold
+Indiranagar - Bangalore,3,1400,198.28,3,Yes,Sold
+Electronic City - Bangalore,3,1756,116.31,4,No,Sold
+Kukatpally - Hyderabad,3,1506,82.87,10,Yes,Sold
+Velachery - Chennai,2,1089,90.01,2,Yes,Available
+Electronic City - Bangalore,1,576,30.98,6,No,Sold
+Jubilee Hills - Hyderabad,3,1552,237.14,10,Yes,Available
+Jubilee Hills - Hyderabad,2,1048,162.82,12,Yes,Sold
+Thane - Mumbai,4,2264,305.12,5,Yes,Sold
+Madhapur - Hyderabad,3,1526,144.35,1,No,Available
+Dwarka - Delhi,3,1688,163.33,0,Yes,Available
+Dwarka - Delhi,3,1615,160.04,6,Yes,Sold
+Anna Nagar - Chennai,3,1610,151.77,7,No,Sold
+Hebbal - Bangalore,1,571,50.59,1,Yes,Available
+Anna Nagar - Chennai,2,865,80.87,20,Yes,Sold
+Sarjapur - Bangalore,3,1633,138.21,0,Yes,Sold
+Porur - Chennai,3,1776,97.71,8,No,Sold
+Tambaram - Chennai,2,1039,59.58,2,Yes,Available
+Porur - Chennai,3,1547,99.04,8,Yes,Available
+Miyapur - Hyderabad,1,557,34.2,2,No,Sold
+Rohini - Delhi,2,1070,105.27,3,Yes,Available
+Banjara Hills - Hyderabad,2,965,163.03,0,Yes,Sold
+Navi Mumbai - Mumbai,2,983,117.58,3,Yes,Available
+Andheri - Mumbai,2,1073,239.53,3,No,Available
+Dwarka - Delhi,2,1106,112.73,0,No,Available
+Bandra - Mumbai,2,1139,556.61,1,Yes,Available
+Whitefield - Bangalore,2,1177,91.43,8,Yes,Available
+OMR - Chennai,2,1155,59.42,20,Yes,Sold
+Kothrud - Pune,3,1649,171.39,20,No,Available
+Madhapur - Hyderabad,1,556,37.26,12,Yes,Sold
+Whitefield - Bangalore,2,1105,70.67,12,No,Sold
+Gurgaon - Delhi,4,2145,262.02,2,Yes,Sold
+Vasant Kunj - Delhi,3,1475,280.09,8,Yes,Available
+OMR - Chennai,4,2213,147.84,3,No,Available
+Jubilee Hills - Hyderabad,1,571,92.1,8,No,Available
+Vasant Kunj - Delhi,2,1064,197.4,5,No,Sold
+Kondapur - Hyderabad,4,2550,207.4,20,Yes,Sold
+Kothrud - Pune,3,1688,167.34,6,No,Sold
+Electronic City - Bangalore,3,1495,116.63,5,No,Sold
+Powai - Mumbai,2,1170,302.25,3,No,Sold
+Tambaram - Chennai,2,955,66.65,0,Yes,Available
+Tambaram - Chennai,4,2328,160.56,2,Yes,Sold
+Marathahalli - Bangalore,2,1090,75.21,2,Yes,Sold
+Tambaram - Chennai,2,923,55.53,6,Yes,Sold
+Andheri - Mumbai,2,1001,233.53,3,No,Available
+Rohini - Delhi,1,586,44.01,3,Yes,Available
+HSR Layout - Bangalore,2,907,104.92,6,No,Available
+Anna Nagar - Chennai,3,1498,221.46,5,No,Sold
+Noida Sector 62 - Delhi,2,1075,70.11,10,Yes,Sold
+Noida Sector 62 - Delhi,2,1107,102.72,4,Yes,Sold
+Gurgaon - Delhi,3,1446,233.04,3,Yes,Sold
+Rohini - Delhi,3,1546,123.51,7,Yes,Available
+Miyapur - Hyderabad,2,981,62.74,1,No,Available
+Whitefield - Bangalore,2,1093,84.22,20,Yes,Sold
+Marathahalli - Bangalore,3,1567,139.06,4,No,Sold
+Porur - Chennai,1,589,31.76,10,No,Sold
+Electronic City - Bangalore,3,1433,120.43,0,Yes,Sold
+Wakad - Pune,2,1092,72.86,10,No,Available
+Jubilee Hills - Hyderabad,2,957,148.63,8,No,Available
+Andheri - Mumbai,1,529,135.68,1,Yes,Sold
+Hitech City - Hyderabad,2,949,89.25,3,No,Available
+Hadapsar - Pune,2,884,49.41,4,No,Sold
+HSR Layout - Bangalore,3,1558,158.64,8,Yes,Available
+Electronic City - Bangalore,3,1452,112.9,1,Yes,Sold
+Navi Mumbai - Mumbai,2,859,88.77,7,Yes,Sold
+Kothrud - Pune,1,581,51.44,1,Yes,Sold
+Hadapsar - Pune,3,1411,75.92,8,Yes,Available
+Hebbal - Bangalore,2,1131,87.58,10,No,Available
+OMR - Chennai,2,1201,91.58,2,No,Available
+Kondapur - Hyderabad,3,1635,121.34,20,No,Sold
+Whitefield - Bangalore,2,1121,98.04,7,Yes,Available
+Jubilee Hills - Hyderabad,2,1014,128.6,10,Yes,Available
+Kondapur - Hyderabad,2,1067,95.42,7,Yes,Sold
+Tambaram - Chennai,3,1631,76.81,3,Yes,Sold
+Miyapur - Hyderabad,3,1630,99.77,6,Yes,Available
+Velachery - Chennai,2,1185,105.41,6,Yes,Available
+Kukatpally - Hyderabad,4,2104,136.09,4,Yes,Available
+Rohini - Delhi,1,481,41.75,4,Yes,Available
+Indiranagar - Bangalore,3,1844,225.65,12,Yes,Sold
+Miyapur - Hyderabad,4,2503,154.03,0,Yes,Available
+Baner - Pune,3,1706,172.63,7,Yes,Available
+Hebbal - Bangalore,1,592,53.27,6,No,Sold
+Koramangala - Bangalore,2,1087,172.53,3,No,Available
+Porur - Chennai,4,2483,231.18,1,No,Sold
+OMR - Chennai,3,1553,124.49,5,Yes,Sold
+Noida Sector 62 - Delhi,3,1496,130.04,7,No,Sold
+Hinjewadi - Pune,2,1105,76.38,2,Yes,Available
+Hadapsar - Pune,2,1065,73.11,10,Yes,Sold
+Koramangala - Bangalore,3,1691,251.79,2,Yes,Available
+Borivali - Mumbai,2,1080,168.51,5,Yes,Available
+Madhapur - Hyderabad,2,1054,67.7,15,Yes,Sold
+Indiranagar - Bangalore,2,1002,157.17,10,Yes,Available
+Hinjewadi - Pune,3,1526,120.8,20,Yes,Sold
+Velachery - Chennai,2,943,84.42,20,Yes,Available
+Sarjapur - Bangalore,1,646,43.04,0,No,Available
+Gurgaon - Delhi,3,1513,220.67,1,No,Available
+Banjara Hills - Hyderabad,1,572,90.43,3,Yes,Sold
+Porur - Chennai,3,1647,99.79,12,Yes,Available
+Baner - Pune,1,506,42.01,10,No,Sold
+Wakad - Pune,3,1381,109.73,5,Yes,Available
+Kukatpally - Hyderabad,2,1073,70.41,20,Yes,Available
+Electronic City - Bangalore,2,1010,78.97,2,Yes,Sold
+Whitefield - Bangalore,4,2059,194.57,1,No,Available
+Powai - Mumbai,3,1628,428.17,1,Yes,Available
+Andheri - Mumbai,1,564,148.16,1,Yes,Sold
+Jubilee Hills - Hyderabad,3,1651,297.07,5,Yes,Available
+Madhapur - Hyderabad,2,912,62.78,6,No,Sold
+Andheri - Mumbai,3,1534,379.17,10,Yes,Sold
+Hitech City - Hyderabad,2,1057,84.84,7,Yes,Available
+OMR - Chennai,3,1401,122.99,1,Yes,Sold
+Porur - Chennai,1,578,44.04,3,Yes,Available
+Velachery - Chennai,2,911,69.93,5,Yes,Sold
+Porur - Chennai,3,1545,106.34,15,Yes,Available
+Electronic City - Bangalore,3,1746,126.08,8,No,Sold
+Thane - Mumbai,3,1785,244.18,0,Yes,Available
+Thane - Mumbai,2,1017,152.7,0,Yes,Sold
+Andheri - Mumbai,2,975,182.94,5,Yes,Available
+Dwarka - Delhi,1,605,57.6,8,No,Available
+Tambaram - Chennai,2,925,51.94,6,No,Sold
+Jubilee Hills - Hyderabad,3,1695,248.76,7,Yes,Available
+Noida Sector 62 - Delhi,3,1566,132.48,6,Yes,Sold
+Hadapsar - Pune,2,1044,72.46,5,No,Available
+Porur - Chennai,3,1489,107.98,4,Yes,Available
+HSR Layout - Bangalore,3,1520,139.62,7,Yes,Available
+Miyapur - Hyderabad,3,1647,79.31,20,Yes,Sold
+Thane - Mumbai,4,2504,323.42,10,Yes,Sold
+Whitefield - Bangalore,4,2308,229.48,0,Yes,Available
+Gurgaon - Delhi,3,1687,197.91,7,Yes,Sold
+Marathahalli - Bangalore,2,1160,97.06,2,Yes,Sold
+HSR Layout - Bangalore,2,1137,107.28,10,No,Sold
+Rohini - Delhi,2,1068,98.96,8,No,Available
+Andheri - Mumbai,4,2257,454.98,4,Yes,Sold
+Dwarka - Delhi,3,1474,158.86,12,Yes,Available
+Navi Mumbai - Mumbai,3,1459,149.09,10,Yes,Sold
+Baner - Pune,3,1517,151.05,8,No,Sold
+Madhapur - Hyderabad,1,598,40.32,8,No,Available
+Madhapur - Hyderabad,4,2639,209.22,5,Yes,Available
+Jubilee Hills - Hyderabad,2,1072,149.92,6,No,Sold
+Anna Nagar - Chennai,2,1000,148.15,2,Yes,Available
+Tambaram - Chennai,3,1689,79.28,10,Yes,Available
+Kukatpally - Hyderabad,2,1061,60.61,4,No,Available
+Wakad - Pune,2,1143,79.58,20,Yes,Available
+Vasant Kunj - Delhi,4,2347,343.77,12,Yes,Sold
+Rohini - Delhi,2,1173,101.72,4,No,Sold
+Sarjapur - Bangalore,2,1041,71.82,3,Yes,Available
+Baner - Pune,2,973,95.01,15,Yes,Available
+Thane - Mumbai,2,1037,135.54,1,No,Sold
+Borivali - Mumbai,3,1326,229.42,15,Yes,Available
+Dwarka - Delhi,2,1044,108.87,7,No,Available
+Miyapur - Hyderabad,2,1066,59.46,4,Yes,Sold
+Bandra - Mumbai,3,1536,777.74,4,Yes,Available
+Powai - Mumbai,2,966,221.24,6,Yes,Sold
+Borivali - Mumbai,2,1238,253.06,7,Yes,Available
+Powai - Mumbai,2,1101,313.91,5,Yes,Sold
+Andheri - Mumbai,2,1084,246.59,2,No,Sold
+Madhapur - Hyderabad,1,549,36.28,4,Yes,Available
+Electronic City - Bangalore,3,1541,86.13,7,No,Sold
+Baner - Pune,4,2313,209.6,12,Yes,Available
+Rohini - Delhi,3,1322,132.58,2,Yes,Sold
+Marathahalli - Bangalore,3,1793,120.64,15,Yes,Available
+Kukatpally - Hyderabad,1,494,25.56,20,Yes,Available
+Kothrud - Pune,3,1544,147.87,3,Yes,Sold
+HSR Layout - Bangalore,2,921,101.48,20,Yes,Sold
+Anna Nagar - Chennai,3,1346,156.77,8,Yes,Sold
+Powai - Mumbai,2,1068,217.51,4,No,Sold
+Velachery - Chennai,2,1077,74.36,6,Yes,Sold
+Marathahalli - Bangalore,2,1039,72.43,7,Yes,Available
+Indiranagar - Bangalore,2,862,131.23,0,Yes,Sold
+Madhapur - Hyderabad,1,558,41.57,7,Yes,Sold
+Gachibowli - Hyderabad,2,1076,103.82,1,Yes,Sold
+Jubilee Hills - Hyderabad,3,1767,251.83,5,Yes,Available
+Rohini - Delhi,4,2552,213.27,10,Yes,Available
+Baner - Pune,2,978,90.46,7,Yes,Available
+OMR - Chennai,3,1595,85.27,7,No,Available
+Indiranagar - Bangalore,2,1106,171.03,0,Yes,Available
+Navi Mumbai - Mumbai,2,1031,126.59,8,Yes,Available
+Electronic City - Bangalore,3,1690,135.7,4,Yes,Available
+Hebbal - Bangalore,4,2311,245.59,8,Yes,Sold
+Indiranagar - Bangalore,3,1663,267.35,0,Yes,Sold
+Tambaram - Chennai,2,1027,65.82,5,Yes,Sold
+Kothrud - Pune,2,1108,104.06,10,No,Available
+Madhapur - Hyderabad,2,1087,71.34,7,No,Available
+Hebbal - Bangalore,2,1032,83.06,4,Yes,Sold
+Hadapsar - Pune,3,1659,107.51,2,Yes,Sold
+Vasant Kunj - Delhi,3,1561,367.49,1,Yes,Sold
+Borivali - Mumbai,3,1511,212.4,20,Yes,Available
+Kothrud - Pune,2,883,95.69,6,Yes,Sold
+Electronic City - Bangalore,2,1212,76.98,7,Yes,Available
+Tambaram - Chennai,2,1054,60.19,1,No,Available
+Kothrud - Pune,3,1728,192.26,5,Yes,Available
+Velachery - Chennai,3,1765,154.94,6,Yes,Sold
+Thane - Mumbai,2,1105,119.19,15,Yes,Sold
+Dwarka - Delhi,3,1449,159.0,2,Yes,Sold
+Thane - Mumbai,3,1764,222.53,2,No,Sold
+Kukatpally - Hyderabad,2,1085,66.6,6,No,Available
+Kondapur - Hyderabad,3,1370,126.05,3,Yes,Sold
+Electronic City - Bangalore,2,1051,61.81,12,Yes,Available
+Rohini - Delhi,3,1563,145.12,0,Yes,Available
+Velachery - Chennai,3,1429,101.83,5,No,Sold
+Dwarka - Delhi,2,1034,107.03,12,No,Available
+Kothrud - Pune,4,2544,281.81,10,Yes,Sold
+Gachibowli - Hyderabad,3,1812,176.2,3,No,Sold
+Banjara Hills - Hyderabad,2,1028,146.93,4,Yes,Available
+Jubilee Hills - Hyderabad,2,1005,147.48,0,No,Available
+Baner - Pune,3,1550,128.67,2,No,Sold
+Miyapur - Hyderabad,3,1753,104.1,7,Yes,Sold
+Banjara Hills - Hyderabad,2,1159,161.63,12,Yes,Sold
+Wakad - Pune,2,1105,74.18,7,No,Available
+Navi Mumbai - Mumbai,2,1132,108.36,20,Yes,Available
+Banjara Hills - Hyderabad,3,1729,312.74,4,Yes,Sold
+HSR Layout - Bangalore,3,1670,166.26,0,Yes,Available
+Hadapsar - Pune,2,1058,71.08,12,Yes,Available
+Thane - Mumbai,2,1080,141.63,15,Yes,Sold
+Dwarka - Delhi,1,616,50.2,4,No,Available
+OMR - Chennai,2,1099,71.86,8,Yes,Available
+Kothrud - Pune,3,1506,167.77,6,Yes,Sold
+Hebbal - Bangalore,1,554,42.27,10,Yes,Available
+Whitefield - Bangalore,2,1080,89.71,0,Yes,Available
+OMR - Chennai,3,1684,107.86,4,Yes,Available
+Velachery - Chennai,2,1069,83.57,2,Yes,Sold
+Banjara Hills - Hyderabad,2,913,149.2,6,Yes,Available
+Hadapsar - Pune,3,1590,111.64,7,No,Sold
+Indiranagar - Bangalore,3,1703,264.22,1,Yes,Sold
+Wakad - Pune,2,1062,67.13,8,Yes,Available
+Navi Mumbai - Mumbai,3,1621,206.93,5,Yes,Available
+Hinjewadi - Pune,2,941,74.81,15,No,Sold
+OMR - Chennai,1,612,36.31,1,Yes,Sold
+Electronic City - Bangalore,2,1143,81.93,4,Yes,Available
+Koramangala - Bangalore,4,2414,381.32,10,No,Available
+Tambaram - Chennai,1,546,23.99,7,Yes,Sold
+Thane - Mumbai,4,2418,291.22,12,Yes,Available
+Navi Mumbai - Mumbai,3,1690,164.96,8,No,Available
+OMR - Chennai,4,2317,149.47,1,No,Available
+Wakad - Pune,3,1533,99.6,8,Yes,Available
+Marathahalli - Bangalore,4,2527,202.42,6,No,Available
+Indiranagar - Bangalore,3,1381,200.33,12,No,Sold
+Hadapsar - Pune,1,499,31.41,2,Yes,Available
+Andheri - Mumbai,2,1021,247.71,8,Yes,Available
+Sarjapur - Bangalore,2,917,61.08,1,Yes,Sold
+Noida Sector 62 - Delhi,3,1635,141.71,7,Yes,Available
+Borivali - Mumbai,3,1542,251.84,3,Yes,Sold
+Hebbal - Bangalore,2,1137,95.2,3,No,Sold
+Hadapsar - Pune,2,1169,67.7,10,Yes,Available
+Porur - Chennai,3,1464,120.17,4,Yes,Available
+Whitefield - Bangalore,3,1669,132.86,6,No,Available
+Noida Sector 62 - Delhi,2,1037,80.37,5,Yes,Sold
+Rohini - Delhi,1,585,40.51,2,Yes,Sold
+Powai - Mumbai,3,1483,353.68,3,Yes,Available
+HSR Layout - Bangalore,3,1463,146.49,4,Yes,Sold
+Wakad - Pune,3,1567,97.6,12,No,Available
+Kukatpally - Hyderabad,3,1554,97.39,8,Yes,Available
+Hitech City - Hyderabad,2,1231,117.98,5,No,Sold
+Kothrud - Pune,2,909,91.15,3,Yes,Available
+Sarjapur - Bangalore,2,1025,72.01,8,Yes,Available
+Noida Sector 62 - Delhi,4,2905,247.13,0,Yes,Available
+Andheri - Mumbai,3,1821,334.97,7,Yes,Available
+Tambaram - Chennai,2,1113,79.41,1,No,Available
+Banjara Hills - Hyderabad,4,2624,379.06,5,Yes,Available
+Tambaram - Chennai,2,1060,55.82,8,No,Sold
+Dwarka - Delhi,2,908,86.11,12,Yes,Available
+Hinjewadi - Pune,2,1029,65.37,6,Yes,Sold
+Borivali - Mumbai,2,1106,231.54,5,No,Available
+Velachery - Chennai,3,1492,128.64,8,Yes,Sold
+Marathahalli - Bangalore,2,1060,79.55,6,Yes,Sold
+Dwarka - Delhi,1,559,56.81,10,Yes,Sold
+Velachery - Chennai,2,1029,98.3,5,Yes,Sold
+Hadapsar - Pune,2,954,71.11,2,Yes,Available
+Tambaram - Chennai,3,1555,95.55,7,Yes,Sold
+Jubilee Hills - Hyderabad,2,1080,157.39,7,No,Available
+Gurgaon - Delhi,2,1053,146.85,20,Yes,Available
+Kothrud - Pune,3,1562,123.84,20,Yes,Sold
+Sarjapur - Bangalore,3,1533,123.35,0,Yes,Available
+Rohini - Delhi,3,1384,96.58,10,Yes,Available
+Gurgaon - Delhi,2,1104,126.18,5,Yes,Sold
+Wakad - Pune,3,1760,159.52,6,Yes,Available
+Hinjewadi - Pune,3,1545,91.19,7,Yes,Available
+Sarjapur - Bangalore,3,1615,138.49,1,Yes,Sold
+Hebbal - Bangalore,2,1039,90.56,15,Yes,Sold
+HSR Layout - Bangalore,1,611,58.45,20,Yes,Available
+Velachery - Chennai,2,1017,99.15,4,No,Sold
+Navi Mumbai - Mumbai,3,1662,155.61,15,Yes,Sold
+Dwarka - Delhi,2,1075,125.21,7,Yes,Sold
+Thane - Mumbai,2,1092,109.95,12,Yes,Sold
+Tambaram - Chennai,2,1010,45.9,10,Yes,Available
+Velachery - Chennai,2,887,81.51,8,Yes,Sold
+Koramangala - Bangalore,2,944,125.83,7,Yes,Available
+Velachery - Chennai,1,531,46.37,6,Yes,Sold
+Jubilee Hills - Hyderabad,2,999,182.54,6,Yes,Available
+Wakad - Pune,2,1007,68.28,20,Yes,Sold
+Miyapur - Hyderabad,3,1731,103.61,12,Yes,Sold
+Velachery - Chennai,2,1212,90.02,4,No,Available
+Hitech City - Hyderabad,2,962,74.65,12,Yes,Available
+Electronic City - Bangalore,3,1427,91.08,2,Yes,Sold
+Wakad - Pune,2,993,67.71,4,Yes,Available
+Bandra - Mumbai,2,1118,406.39,2,Yes,Available
+Hitech City - Hyderabad,2,1177,100.77,3,Yes,Sold
+Porur - Chennai,3,1687,135.07,2,Yes,Sold
+Noida Sector 62 - Delhi,2,1000,83.41,7,No,Available
+Kondapur - Hyderabad,2,1101,104.31,1,Yes,Sold
+Gurgaon - Delhi,4,2492,325.09,0,Yes,Available
+Gurgaon - Delhi,3,1871,235.3,1,Yes,Available
+Miyapur - Hyderabad,3,1602,103.54,4,No,Sold
+Noida Sector 62 - Delhi,3,1651,113.06,5,Yes,Available
+Electronic City - Bangalore,2,1031,78.75,6,Yes,Sold
+Navi Mumbai - Mumbai,2,947,89.93,7,Yes,Available
+Gurgaon - Delhi,1,427,45.2,15,No,Available
+OMR - Chennai,4,2223,160.06,20,Yes,Sold
+Powai - Mumbai,2,1080,282.04,3,Yes,Available
+Hadapsar - Pune,2,997,74.33,6,Yes,Available
+Sarjapur - Bangalore,3,1703,109.81,8,No,Available
+Banjara Hills - Hyderabad,2,951,167.68,2,No,Available
+Anna Nagar - Chennai,2,1042,101.09,6,Yes,Available
+Marathahalli - Bangalore,2,1009,69.58,5,No,Sold
+Indiranagar - Bangalore,2,1044,132.38,4,Yes,Available
+Indiranagar - Bangalore,4,2401,296.32,10,No,Available
+Kondapur - Hyderabad,2,1025,75.67,3,Yes,Available
+Gurgaon - Delhi,2,1116,151.52,5,No,Sold
+Bandra - Mumbai,3,1586,635.96,0,Yes,Sold
+Miyapur - Hyderabad,2,1087,56.97,2,No,Sold
+Vasant Kunj - Delhi,2,1027,165.71,4,Yes,Available
+Kondapur - Hyderabad,2,1004,81.86,5,Yes,Sold
+Vasant Kunj - Delhi,2,1093,236.91,2,Yes,Sold
+Kukatpally - Hyderabad,3,1448,87.83,1,Yes,Sold
+Anna Nagar - Chennai,4,2444,338.69,12,Yes,Available
+Velachery - Chennai,3,1528,156.16,3,Yes,Available
+Porur - Chennai,4,2477,192.97,5,Yes,Available
+Tambaram - Chennai,2,1173,64.81,4,Yes,Sold
+Hebbal - Bangalore,4,2368,256.63,0,No,Available
+Koramangala - Bangalore,2,1129,174.95,10,Yes,Available
+Koramangala - Bangalore,2,1193,186.15,5,Yes,Sold
+Hinjewadi - Pune,3,1648,105.38,3,Yes,Sold
+Jubilee Hills - Hyderabad,2,1164,164.2,7,No,Sold
+Hebbal - Bangalore,3,1448,105.41,20,No,Available
+Hadapsar - Pune,2,977,61.88,10,No,Available
+Kothrud - Pune,2,896,95.82,2,Yes,Sold
+Hinjewadi - Pune,2,1030,76.54,10,Yes,Available
+HSR Layout - Bangalore,3,1615,158.06,15,Yes,Sold
+Hadapsar - Pune,1,528,32.72,8,Yes,Sold
+Borivali - Mumbai,2,1116,235.36,10,Yes,Sold
+Andheri - Mumbai,3,1685,325.38,6,Yes,Sold
+Baner - Pune,2,1040,100.08,4,Yes,Sold
+Kothrud - Pune,2,1102,106.96,5,No,Available
+Kukatpally - Hyderabad,2,1174,86.55,0,Yes,Available
+Powai - Mumbai,2,905,186.09,8,Yes,Sold
+Marathahalli - Bangalore,2,1108,88.56,6,No,Available
+Dwarka - Delhi,3,1431,138.01,6,Yes,Available
+Andheri - Mumbai,2,926,183.95,20,Yes,Sold
+Hadapsar - Pune,4,2117,155.6,5,Yes,Sold
+Madhapur - Hyderabad,1,577,39.13,15,Yes,Sold
+Baner - Pune,2,1222,116.33,10,Yes,Sold
+HSR Layout - Bangalore,3,1363,151.64,0,Yes,Available
+Kondapur - Hyderabad,2,1177,95.37,2,Yes,Available
+Tambaram - Chennai,4,2330,142.36,1,Yes,Sold
+Baner - Pune,2,976,79.17,15,No,Sold
+Koramangala - Bangalore,3,1584,180.6,6,Yes,Sold
+Kondapur - Hyderabad,2,1051,93.8,10,Yes,Available
+Dwarka - Delhi,4,2517,223.9,5,Yes,Sold
+Hitech City - Hyderabad,2,1213,111.92,7,Yes,Available
+Banjara Hills - Hyderabad,2,855,114.99,5,Yes,Available
+Bandra - Mumbai,3,1515,616.08,8,Yes,Sold
+Dwarka - Delhi,2,905,77.2,2,Yes,Available
+Hinjewadi - Pune,3,1723,133.78,1,Yes,Sold
+Madhapur - Hyderabad,2,1251,82.36,8,Yes,Available
+Noida Sector 62 - Delhi,1,595,45.52,5,Yes,Available
+Electronic City - Bangalore,2,992,83.98,0,Yes,Available
+Noida Sector 62 - Delhi,3,1616,112.84,4,Yes,Available
+Gachibowli - Hyderabad,2,959,93.47,0,Yes,Available
+Whitefield - Bangalore,2,1028,69.9,7,No,Available
+Kothrud - Pune,2,1174,143.64,2,Yes,Sold
+Jubilee Hills - Hyderabad,3,1505,281.07,4,No,Available
+Gurgaon - Delhi,3,1861,240.3,1,Yes,Sold
+Whitefield - Bangalore,4,2478,215.87,10,No,Sold
+Hinjewadi - Pune,3,1658,132.6,15,Yes,Sold
+Gurgaon - Delhi,2,1065,137.98,6,Yes,Available
+Gachibowli - Hyderabad,2,1029,75.67,8,Yes,Available
+Andheri - Mumbai,2,1091,269.44,2,No,Sold
+Bandra - Mumbai,2,812,358.82,10,Yes,Available
+Hitech City - Hyderabad,3,1554,168.77,1,Yes,Available
+Thane - Mumbai,3,1531,155.42,2,No,Available
+Kukatpally - Hyderabad,3,1473,88.46,2,Yes,Available
+Electronic City - Bangalore,3,1496,115.38,0,Yes,Available
+Navi Mumbai - Mumbai,2,1061,88.84,20,Yes,Available
+Wakad - Pune,2,980,91.02,1,Yes,Available
+OMR - Chennai,2,1182,69.59,7,No,Sold
+Kukatpally - Hyderabad,4,2260,171.82,4,No,Sold
+HSR Layout - Bangalore,4,2545,265.37,7,No,Sold
+Banjara Hills - Hyderabad,2,948,123.78,12,No,Available
+Miyapur - Hyderabad,1,572,31.56,7,No,Sold
+Kondapur - Hyderabad,3,1307,91.68,15,Yes,Sold
+Gachibowli - Hyderabad,1,578,48.51,6,Yes,Available
+Koramangala - Bangalore,2,949,142.77,0,No,Available
+Madhapur - Hyderabad,2,976,72.48,12,No,Sold
+OMR - Chennai,3,1663,149.49,0,Yes,Available
+Porur - Chennai,3,1676,112.91,3,Yes,Available
+OMR - Chennai,3,1418,78.25,10,No,Available
+Rohini - Delhi,2,1069,104.82,3,No,Sold
+Indiranagar - Bangalore,2,1212,150.18,20,No,Available
+Madhapur - Hyderabad,2,1141,93.73,7,Yes,Available
+Powai - Mumbai,4,2279,450.32,12,No,Available
+OMR - Chennai,2,1195,85.99,7,Yes,Available
+Tambaram - Chennai,3,1626,83.37,6,Yes,Sold
+Rohini - Delhi,1,541,44.81,15,Yes,Sold
+Indiranagar - Bangalore,4,2730,405.93,0,Yes,Sold
+Kukatpally - Hyderabad,3,1665,124.6,1,No,Sold
+Hinjewadi - Pune,2,1087,67.84,10,No,Sold
+Hadapsar - Pune,2,1012,62.04,8,No,Available
+Sarjapur - Bangalore,1,556,43.69,4,Yes,Sold
+Kothrud - Pune,3,1820,170.21,3,Yes,Sold
+Bandra - Mumbai,3,1550,680.67,5,No,Available
+HSR Layout - Bangalore,2,1038,99.41,5,Yes,Sold
+Rohini - Delhi,3,1400,105.38,15,Yes,Sold
+Hitech City - Hyderabad,3,1547,136.81,12,Yes,Available
+Hebbal - Bangalore,2,1018,103.68,1,Yes,Available
+Hadapsar - Pune,2,1197,73.6,2,Yes,Available
+Wakad - Pune,2,980,80.3,8,No,Sold
+Kukatpally - Hyderabad,4,2357,157.99,2,Yes,Available
+Whitefield - Bangalore,2,962,85.04,2,Yes,Available
+Baner - Pune,2,1164,99.3,7,Yes,Available
+Gurgaon - Delhi,2,996,107.52,7,Yes,Available
+Kukatpally - Hyderabad,2,1173,70.57,6,No,Sold
+Whitefield - Bangalore,3,1380,124.91,4,No,Available
+Marathahalli - Bangalore,1,541,35.28,12,Yes,Sold
+Miyapur - Hyderabad,2,1030,57.46,3,Yes,Available
+Electronic City - Bangalore,3,1751,86.94,15,Yes,Available
+Gurgaon - Delhi,2,992,130.42,6,Yes,Sold
+Madhapur - Hyderabad,2,1005,73.5,20,No,Sold
+Bandra - Mumbai,2,995,379.21,1,Yes,Sold
+HSR Layout - Bangalore,3,1278,129.41,6,No,Sold
+Thane - Mumbai,4,1720,179.85,15,Yes,Available
+Navi Mumbai - Mumbai,2,1073,112.09,4,No,Available
+Thane - Mumbai,3,1666,225.17,0,Yes,Sold
+Wakad - Pune,3,1619,115.67,6,Yes,Available
+Jubilee Hills - Hyderabad,3,1752,344.99,0,Yes,Sold
+Vasant Kunj - Delhi,3,1652,333.41,8,Yes,Available
+Koramangala - Bangalore,2,957,128.89,7,Yes,Sold
+Velachery - Chennai,2,1015,89.19,8,Yes,Available
+Borivali - Mumbai,4,2458,552.27,7,Yes,Available
+Miyapur - Hyderabad,3,1708,90.04,0,Yes,Available
+Navi Mumbai - Mumbai,2,1034,124.57,5,Yes,Sold
+Banjara Hills - Hyderabad,2,1083,138.95,4,No,Sold
+Banjara Hills - Hyderabad,3,1724,201.61,10,Yes,Available
+Borivali - Mumbai,3,1751,307.81,6,No,Sold
+Tambaram - Chennai,2,1135,77.45,3,Yes,Available
+Miyapur - Hyderabad,2,1165,62.75,1,Yes,Available
+Rohini - Delhi,3,1384,112.89,0,No,Available
+Marathahalli - Bangalore,2,1040,86.98,2,No,Available
+Sarjapur - Bangalore,2,1034,76.17,15,No,Available
+Borivali - Mumbai,2,1202,210.28,10,No,Available
+Hitech City - Hyderabad,2,1114,87.25,6,No,Available
+Gurgaon - Delhi,2,1088,169.21,4,No,Sold
+Banjara Hills - Hyderabad,1,488,79.05,1,Yes,Sold
+Tambaram - Chennai,2,1021,44.71,6,No,Available
+Velachery - Chennai,2,1102,95.34,10,Yes,Sold
+Thane - Mumbai,2,972,134.09,5,Yes,Available
+Gurgaon - Delhi,2,1096,104.57,15,Yes,Sold
+Wakad - Pune,3,1458,113.96,4,Yes,Available
+Hebbal - Bangalore,2,1069,94.41,3,Yes,Available
+Sarjapur - Bangalore,2,1019,57.84,10,No,Sold
+Anna Nagar - Chennai,3,1608,219.98,4,Yes,Sold
+Hebbal - Bangalore,2,1051,95.55,3,Yes,Sold
+Hinjewadi - Pune,2,940,87.25,5,Yes,Available
+Gachibowli - Hyderabad,3,1706,170.27,5,Yes,Sold
+Vasant Kunj - Delhi,4,2390,487.23,1,Yes,Sold
+Gurgaon - Delhi,3,1762,215.68,1,Yes,Available
+Jubilee Hills - Hyderabad,1,522,74.49,3,Yes,Available
+Jubilee Hills - Hyderabad,3,1783,304.82,6,No,Sold
+HSR Layout - Bangalore,3,1661,149.47,20,No,Available
+Noida Sector 62 - Delhi,2,1070,83.35,5,Yes,Sold
+Velachery - Chennai,3,1484,120.9,12,Yes,Available
+Banjara Hills - Hyderabad,2,1096,150.61,12,No,Sold
+Hadapsar - Pune,2,989,60.84,15,Yes,Sold
+Kukatpally - Hyderabad,2,995,69.54,8,Yes,Available
+Navi Mumbai - Mumbai,3,1686,190.33,4,Yes,Available
+OMR - Chennai,3,1781,123.85,5,No,Sold
+Andheri - Mumbai,2,1122,315.97,1,Yes,Available
+Wakad - Pune,4,2388,210.19,1,Yes,Available
+Hebbal - Bangalore,3,1427,136.62,8,Yes,Sold
+Hebbal - Bangalore,2,1076,114.44,0,Yes,Sold
+Marathahalli - Bangalore,4,2241,161.34,15,Yes,Available
+Thane - Mumbai,2,1101,114.34,7,Yes,Available
+Powai - Mumbai,4,2279,500.13,6,Yes,Available
+Madhapur - Hyderabad,2,1085,83.89,5,Yes,Sold
+Bandra - Mumbai,3,1660,610.91,5,No,Sold
+HSR Layout - Bangalore,2,1025,127.64,3,No,Sold
+Indiranagar - Bangalore,2,1069,148.93,3,Yes,Available
+Vasant Kunj - Delhi,2,1163,211.75,0,No,Available
+Electronic City - Bangalore,3,1754,134.18,6,Yes,Sold
+Madhapur - Hyderabad,2,1088,100.26,0,Yes,Sold
+Rohini - Delhi,3,1698,154.09,1,No,Sold
+Tambaram - Chennai,2,1155,55.76,8,Yes,Available
+Whitefield - Bangalore,3,1516,140.55,7,Yes,Available
+Kondapur - Hyderabad,1,523,38.37,7,No,Available
+Bandra - Mumbai,1,535,251.75,6,No,Available
+Baner - Pune,2,991,100.85,4,Yes,Available
+Madhapur - Hyderabad,3,1664,137.71,7,Yes,Sold
+Whitefield - Bangalore,1,558,42.18,20,Yes,Sold
+Powai - Mumbai,3,1698,493.07,0,Yes,Sold
+Koramangala - Bangalore,3,1991,215.02,6,Yes,Available
+Powai - Mumbai,2,1083,247.15,6,Yes,Sold
+Marathahalli - Bangalore,2,932,86.65,1,Yes,Available
+Gurgaon - Delhi,2,1014,161.24,2,Yes,Available
+Tambaram - Chennai,2,972,60.66,6,Yes,Available
+Velachery - Chennai,2,1098,89.59,1,Yes,Available
+Whitefield - Bangalore,3,1633,111.64,7,Yes,Available
+Powai - Mumbai,2,929,216.34,2,No,Sold
+Madhapur - Hyderabad,3,1525,132.24,10,Yes,Sold
+Miyapur - Hyderabad,2,921,52.17,0,Yes,Available
+Electronic City - Bangalore,2,1149,88.53,2,Yes,Available
+Kothrud - Pune,2,1172,122.87,1,Yes,Sold
+Vasant Kunj - Delhi,3,1476,287.11,1,No,Available
+Hinjewadi - Pune,2,827,63.79,8,Yes,Available
+Baner - Pune,3,1611,180.51,3,Yes,Sold
+Hebbal - Bangalore,3,1669,154.69,6,Yes,Available
+Powai - Mumbai,2,1030,304.33,3,Yes,Available
+Bandra - Mumbai,3,1361,682.19,7,No,Available
+Powai - Mumbai,3,1547,396.34,2,Yes,Sold
+Marathahalli - Bangalore,2,1007,89.2,3,No,Available
+Banjara Hills - Hyderabad,3,1427,184.82,0,No,Available
+Noida Sector 62 - Delhi,3,1380,101.16,3,No,Available
+Tambaram - Chennai,3,1614,77.37,2,Yes,Sold
+Whitefield - Bangalore,3,1403,111.88,12,Yes,Sold
+HSR Layout - Bangalore,2,1236,131.26,5,Yes,Sold
+Gurgaon - Delhi,2,1030,118.07,0,No,Available
+Thane - Mumbai,2,1090,158.75,4,No,Available
+HSR Layout - Bangalore,2,951,109.86,5,Yes,Sold
+Jubilee Hills - Hyderabad,3,1527,275.96,4,Yes,Sold
+Velachery - Chennai,2,1028,82.89,4,No,Sold
+Baner - Pune,3,1860,148.16,5,Yes,Available
+Kondapur - Hyderabad,3,1488,127.52,6,Yes,Available
+Gachibowli - Hyderabad,3,1835,144.81,3,Yes,Sold
+Kothrud - Pune,2,940,105.32,5,Yes,Available
+Baner - Pune,2,1063,74.42,12,Yes,Available
+Banjara Hills - Hyderabad,1,585,74.39,6,Yes,Available
+Bandra - Mumbai,4,2308,1138.82,5,Yes,Sold
+Bandra - Mumbai,2,1235,509.16,7,Yes,Available
+Thane - Mumbai,3,1650,225.54,3,No,Available
+Wakad - Pune,1,618,34.78,10,No,Sold
+Dwarka - Delhi,2,1053,88.68,2,Yes,Available
+Madhapur - Hyderabad,3,1382,98.09,20,Yes,Sold
+Sarjapur - Bangalore,3,1478,127.51,1,Yes,Available
+Jubilee Hills - Hyderabad,4,2620,437.45,2,No,Available
+Borivali - Mumbai,2,988,188.15,7,Yes,Available
+Baner - Pune,3,1548,120.37,12,Yes,Sold
+Bandra - Mumbai,3,1661,782.17,20,No,Available
+Hebbal - Bangalore,3,1681,147.51,3,Yes,Available
+Kukatpally - Hyderabad,2,1033,80.29,1,No,Sold
+Electronic City - Bangalore,2,986,69.58,1,Yes,Available
+Andheri - Mumbai,2,1062,213.63,3,Yes,Sold
+Wakad - Pune,4,2392,222.24,3,No,Sold
+Porur - Chennai,3,1791,127.29,6,No,Sold
+Hinjewadi - Pune,2,1018,58.22,12,Yes,Sold
+Velachery - Chennai,4,2563,241.13,1,Yes,Available
+Bandra - Mumbai,3,1678,712.15,15,No,Sold
+Koramangala - Bangalore,2,997,135.87,2,Yes,Available
+Miyapur - Hyderabad,3,1606,79.7,10,Yes,Sold
+Kukatpally - Hyderabad,3,1409,82.88,10,Yes,Available
+Borivali - Mumbai,1,645,111.0,12,Yes,Available
+Hinjewadi - Pune,3,1578,101.37,15,No,Sold
+Dwarka - Delhi,4,2553,268.03,5,Yes,Sold
+Andheri - Mumbai,3,1513,306.75,3,Yes,Sold
+Navi Mumbai - Mumbai,3,1428,180.91,5,Yes,Sold
+Hinjewadi - Pune,3,1583,105.83,12,Yes,Available
+Wakad - Pune,2,1172,114.02,5,Yes,Sold
+Porur - Chennai,1,585,34.72,4,No,Available
+Baner - Pune,2,1114,124.03,2,Yes,Available
+Navi Mumbai - Mumbai,3,1582,196.75,0,Yes,Available
+Kukatpally - Hyderabad,2,1143,66.33,6,Yes,Available
+Powai - Mumbai,3,1671,417.31,4,Yes,Available
+Kukatpally - Hyderabad,3,1618,98.1,7,Yes,Available
+Noida Sector 62 - Delhi,2,1082,89.3,6,Yes,Sold
+Porur - Chennai,4,2523,184.39,5,No,Available
+Hinjewadi - Pune,4,2473,216.59,1,Yes,Available
+Madhapur - Hyderabad,4,2179,172.02,4,No,Available
+Gachibowli - Hyderabad,1,487,36.89,5,No,Sold
+Madhapur - Hyderabad,2,1091,91.68,5,Yes,Sold
+HSR Layout - Bangalore,2,1026,85.23,15,Yes,Available
+Jubilee Hills - Hyderabad,3,1414,284.7,1,Yes,Available
+OMR - Chennai,3,1416,102.13,5,No,Available
+Tambaram - Chennai,3,1679,79.48,7,Yes,Available
+Marathahalli - Bangalore,3,1522,119.4,1,Yes,Sold
+Jubilee Hills - Hyderabad,3,1764,316.85,2,Yes,Available
+Andheri - Mumbai,2,981,167.04,12,No,Available
+OMR - Chennai,2,1078,84.2,5,No,Available
+Banjara Hills - Hyderabad,4,2557,419.13,0,Yes,Sold
+Wakad - Pune,3,1681,122.86,5,No,Sold
+Indiranagar - Bangalore,2,984,163.28,2,Yes,Available
+Powai - Mumbai,3,1723,356.89,3,Yes,Available
+Noida Sector 62 - Delhi,4,2433,194.72,3,No,Available
+Noida Sector 62 - Delhi,4,2644,240.31,3,Yes,Sold
+Baner - Pune,3,1616,113.24,20,No,Available
+Electronic City - Bangalore,3,1542,105.01,7,Yes,Sold
+Banjara Hills - Hyderabad,4,2425,445.38,5,No,Sold
+Hinjewadi - Pune,3,1618,119.11,4,Yes,Sold
+Indiranagar - Bangalore,3,1776,248.59,0,Yes,Sold
+Hitech City - Hyderabad,1,526,45.64,10,No,Available
+Sarjapur - Bangalore,3,1595,120.95,0,No,Available
+Hebbal - Bangalore,2,953,107.56,1,Yes,Available
+Kothrud - Pune,3,1548,188.62,4,Yes,Sold
+Rohini - Delhi,1,613,43.15,4,Yes,Available
+Whitefield - Bangalore,2,1053,75.36,12,Yes,Sold
+Kukatpally - Hyderabad,4,2189,161.86,5,Yes,Sold
+Porur - Chennai,2,1014,89.66,0,Yes,Available
+Jubilee Hills - Hyderabad,2,939,138.18,12,Yes,Available
+Anna Nagar - Chennai,2,1117,170.21,0,Yes,Sold
+Borivali - Mumbai,1,544,77.69,7,No,Available
+Baner - Pune,2,1140,101.09,7,No,Sold
+Wakad - Pune,1,527,34.68,7,Yes,Sold
+Sarjapur - Bangalore,2,1104,78.8,0,Yes,Sold
+Bandra - Mumbai,2,898,428.07,12,Yes,Available
+Madhapur - Hyderabad,2,992,73.83,5,Yes,Sold
+Whitefield - Bangalore,2,1059,76.47,2,Yes,Sold
+Electronic City - Bangalore,3,1520,103.4,20,Yes,Available
+Indiranagar - Bangalore,1,550,64.12,5,Yes,Available
+HSR Layout - Bangalore,2,1060,92.85,6,Yes,Sold
+Borivali - Mumbai,2,1137,177.92,4,Yes,Available
+Kothrud - Pune,3,1776,193.36,5,Yes,Sold
+Andheri - Mumbai,2,993,195.24,10,Yes,Available
+Gachibowli - Hyderabad,2,1129,99.03,10,Yes,Available
+Tambaram - Chennai,2,1033,57.41,10,No,Available
+OMR - Chennai,3,1601,124.5,7,Yes,Available
+Koramangala - Bangalore,2,981,137.9,1,Yes,Sold
+Kukatpally - Hyderabad,3,1748,89.02,12,No,Available
+Gachibowli - Hyderabad,1,591,46.58,12,Yes,Available
+Hitech City - Hyderabad,3,1768,144.36,10,No,Available
+Indiranagar - Bangalore,2,1115,184.17,2,No,Available
+Hitech City - Hyderabad,3,1672,157.56,3,Yes,Sold
+Gachibowli - Hyderabad,2,1080,82.92,6,No,Available
+Indiranagar - Bangalore,2,954,160.45,2,Yes,Available
+Hitech City - Hyderabad,3,1395,144.48,10,Yes,Sold
+Borivali - Mumbai,3,1483,238.59,8,No,Sold
+Banjara Hills - Hyderabad,2,939,145.58,6,No,Sold
+OMR - Chennai,3,1650,131.19,8,Yes,Available
+Hinjewadi - Pune,3,1526,95.36,8,Yes,Sold
+Gurgaon - Delhi,2,923,128.45,6,Yes,Available
+Powai - Mumbai,2,1003,205.48,4,Yes,Sold
+Andheri - Mumbai,3,1515,375.76,2,No,Sold
+Whitefield - Bangalore,2,1029,85.41,1,Yes,Sold
+Andheri - Mumbai,2,981,243.21,3,Yes,Available
+Navi Mumbai - Mumbai,1,540,44.81,15,No,Available
+Tambaram - Chennai,2,1076,66.17,0,Yes,Available
+Borivali - Mumbai,1,508,90.81,5,No,Available
+Kothrud - Pune,2,1115,104.0,7,Yes,Available
+Electronic City - Bangalore,2,1164,65.77,15,Yes,Sold
+Hinjewadi - Pune,3,1577,131.13,4,No,Available
+Hadapsar - Pune,3,1720,109.8,5,Yes,Available
+Marathahalli - Bangalore,4,2442,172.74,10,No,Available
+Whitefield - Bangalore,3,1514,106.01,15,No,Available
+Wakad - Pune,2,1070,90.33,20,Yes,Sold
+Miyapur - Hyderabad,2,951,51.14,4,No,Sold
+Dwarka - Delhi,2,1099,95.18,7,Yes,Available
+OMR - Chennai,2,1038,87.34,1,Yes,Sold
+Kukatpally - Hyderabad,3,1661,103.68,3,No,Sold
+Whitefield - Bangalore,2,1037,105.77,2,Yes,Sold
+Baner - Pune,2,1072,82.71,7,No,Sold
+Kukatpally - Hyderabad,2,998,55.83,4,No,Available
+Jubilee Hills - Hyderabad,3,1592,249.29,6,Yes,Available
+Thane - Mumbai,4,2289,355.49,4,Yes,Available
+OMR - Chennai,2,1001,60.74,5,Yes,Available
+Dwarka - Delhi,3,1686,162.53,5,No,Available
+Whitefield - Bangalore,1,563,44.5,5,Yes,Available
+Electronic City - Bangalore,2,930,63.32,1,No,Available
+Electronic City - Bangalore,1,524,37.33,1,Yes,Available
+Hadapsar - Pune,2,1033,72.14,2,Yes,Sold
+Miyapur - Hyderabad,2,1115,62.41,6,Yes,Available
+Porur - Chennai,2,1025,74.08,2,Yes,Sold
+Thane - Mumbai,3,1858,231.77,8,Yes,Available
+Borivali - Mumbai,3,1860,277.08,10,Yes,Available
+Baner - Pune,2,912,78.66,0,Yes,Sold
+Anna Nagar - Chennai,4,2472,274.6,12,Yes,Available
+Hitech City - Hyderabad,2,954,90.17,15,Yes,Sold
+Noida Sector 62 - Delhi,1,557,34.27,3,Yes,Available
+OMR - Chennai,3,1591,103.75,3,Yes,Sold
+Velachery - Chennai,2,1114,80.81,5,Yes,Sold
+Rohini - Delhi,2,1054,80.97,7,Yes,Sold
+Kondapur - Hyderabad,2,927,75.4,2,Yes,Available
+Miyapur - Hyderabad,2,1025,54.42,2,Yes,Sold
+Electronic City - Bangalore,3,1891,138.1,3,Yes,Sold
+Gachibowli - Hyderabad,2,1137,89.81,6,Yes,Sold
+Hitech City - Hyderabad,3,1590,124.74,12,Yes,Available
+Hinjewadi - Pune,3,1594,134.45,6,No,Available
+Banjara Hills - Hyderabad,2,1127,143.64,20,No,Sold
+Indiranagar - Bangalore,4,2525,380.93,5,Yes,Available
+Andheri - Mumbai,2,1035,244.76,4,Yes,Sold
+Navi Mumbai - Mumbai,2,962,112.88,10,No,Sold
+Vasant Kunj - Delhi,4,2347,414.43,12,No,Sold
+Kondapur - Hyderabad,1,495,42.08,3,No,Available
+Kothrud - Pune,1,541,58.19,1,Yes,Available
+Jubilee Hills - Hyderabad,3,1650,206.2,7,No,Available
+Anna Nagar - Chennai,2,945,135.67,0,Yes,Sold
+OMR - Chennai,3,1617,115.68,10,Yes,Available
+Gurgaon - Delhi,2,1021,123.37,20,Yes,Available
+Kothrud - Pune,2,1036,88.58,6,Yes,Sold
+HSR Layout - Bangalore,3,1587,206.8,1,Yes,Available
+Porur - Chennai,3,1597,123.6,8,Yes,Available
+Wakad - Pune,3,1656,133.04,12,No,Available
+Rohini - Delhi,3,1620,125.19,12,No,Sold
+Porur - Chennai,3,1589,128.92,1,Yes,Sold
+Velachery - Chennai,1,466,42.28,3,Yes,Sold
+Indiranagar - Bangalore,3,1530,235.69,2,Yes,Available
+Jubilee Hills - Hyderabad,2,1001,144.46,2,No,Sold
+Indiranagar - Bangalore,4,2426,413.88,3,Yes,Sold
+Rohini - Delhi,2,1138,84.72,4,No,Sold
+Miyapur - Hyderabad,4,1856,114.03,5,Yes,Available
+Gurgaon - Delhi,2,1058,120.69,7,Yes,Available
+Borivali - Mumbai,4,2570,445.17,3,Yes,Available
+HSR Layout - Bangalore,3,1526,160.9,2,Yes,Sold
+Gachibowli - Hyderabad,2,830,67.41,3,Yes,Available
+Gachibowli - Hyderabad,2,1068,77.58,15,Yes,Available
+OMR - Chennai,2,1054,62.06,10,Yes,Available
+Kukatpally - Hyderabad,2,1062,60.72,4,Yes,Available
+Porur - Chennai,3,1867,136.98,12,Yes,Sold
+Thane - Mumbai,3,1737,225.23,0,No,Available
+Marathahalli - Bangalore,2,1042,71.78,4,No,Available
+Miyapur - Hyderabad,2,1027,53.21,7,Yes,Sold
+Hadapsar - Pune,2,968,57.3,6,No,Sold
+Hitech City - Hyderabad,2,1088,107.39,4,Yes,Available
+Navi Mumbai - Mumbai,3,1676,197.14,0,No,Available
+Gachibowli - Hyderabad,2,1152,89.12,7,Yes,Sold
+Tambaram - Chennai,1,607,35.15,2,No,Sold
+Indiranagar - Bangalore,2,1022,133.63,5,No,Sold
+Wakad - Pune,1,553,37.62,10,Yes,Sold
+Gurgaon - Delhi,3,1627,197.69,10,No,Available
+HSR Layout - Bangalore,4,2556,351.44,1,No,Available
+Kukatpally - Hyderabad,3,1713,98.47,3,No,Available
+Sarjapur - Bangalore,2,1060,71.47,12,Yes,Available
+Marathahalli - Bangalore,3,1624,117.4,6,Yes,Sold
+Gurgaon - Delhi,1,603,53.2,12,No,Sold
+Porur - Chennai,3,1651,95.98,10,No,Available
+HSR Layout - Bangalore,2,989,111.43,10,Yes,Sold
+Gachibowli - Hyderabad,2,1124,95.91,3,No,Available
+Jubilee Hills - Hyderabad,3,1894,320.95,5,Yes,Sold
+Andheri - Mumbai,3,1410,345.68,2,Yes,Available
+Gachibowli - Hyderabad,4,2501,224.55,7,Yes,Sold
+Kukatpally - Hyderabad,3,1850,106.25,2,Yes,Available
+Electronic City - Bangalore,2,1026,89.16,1,Yes,Available
+Gachibowli - Hyderabad,2,940,67.48,12,Yes,Sold
+Dwarka - Delhi,2,1008,80.36,6,No,Available
+Banjara Hills - Hyderabad,3,1777,240.6,6,Yes,Sold
+Kukatpally - Hyderabad,2,1003,67.56,3,Yes,Sold
+Kondapur - Hyderabad,4,2578,287.56,1,Yes,Sold
+Hitech City - Hyderabad,1,587,50.48,1,Yes,Available
+Hitech City - Hyderabad,3,1696,173.53,1,Yes,Available
+Banjara Hills - Hyderabad,1,519,58.71,7,Yes,Available
+Anna Nagar - Chennai,1,545,73.83,2,No,Sold
+Kothrud - Pune,3,1891,171.96,3,Yes,Available
+Hebbal - Bangalore,1,539,40.81,4,Yes,Available
+Kondapur - Hyderabad,3,1559,139.96,1,No,Sold
+Powai - Mumbai,3,1844,424.6,1,Yes,Sold
+Andheri - Mumbai,2,1022,192.09,15,No,Available
+Hinjewadi - Pune,3,1556,126.1,4,Yes,Available
+Kondapur - Hyderabad,2,1171,102.45,7,No,Sold
+Powai - Mumbai,2,967,291.4,5,Yes,Available
+Hadapsar - Pune,4,2245,158.97,15,No,Available
+Gachibowli - Hyderabad,3,1436,108.34,8,Yes,Available
+Vasant Kunj - Delhi,2,1068,180.71,1,Yes,Available
+Indiranagar - Bangalore,2,1087,156.25,7,Yes,Sold
+Hitech City - Hyderabad,4,2053,190.47,5,Yes,Available
+HSR Layout - Bangalore,4,2591,260.87,4,Yes,Sold
+Dwarka - Delhi,3,1640,130.07,8,No,Sold
+Hadapsar - Pune,4,2247,195.59,1,Yes,Sold
+Tambaram - Chennai,3,1617,75.1,8,No,Available
+Indiranagar - Bangalore,4,2343,425.38,2,No,Sold
+Dwarka - Delhi,3,1526,149.8,5,Yes,Available
+HSR Layout - Bangalore,3,1608,209.96,0,No,Available
+Velachery - Chennai,2,1008,87.8,4,Yes,Available
+Kondapur - Hyderabad,3,1514,134.54,1,No,Sold
+Anna Nagar - Chennai,4,2407,290.32,10,Yes,Sold
+Kondapur - Hyderabad,2,1082,72.31,12,No,Sold
+Marathahalli - Bangalore,4,2652,204.46,4,Yes,Sold
+Jubilee Hills - Hyderabad,2,943,141.08,15,No,Available
+Anna Nagar - Chennai,3,1831,196.62,5,No,Available
+Miyapur - Hyderabad,1,520,25.89,7,Yes,Sold
+Borivali - Mumbai,3,1705,318.86,7,Yes,Sold
+Borivali - Mumbai,3,1548,248.89,8,No,Available
+Andheri - Mumbai,2,1084,286.53,5,Yes,Available
+Porur - Chennai,2,1091,71.24,6,Yes,Available
+Banjara Hills - Hyderabad,4,2382,461.0,1,No,Sold
+Gachibowli - Hyderabad,3,1501,127.68,2,Yes,Sold
+Banjara Hills - Hyderabad,3,1495,273.85,5,Yes,Available
+Hitech City - Hyderabad,2,1054,97.73,5,Yes,Available
+Kondapur - Hyderabad,2,1096,82.53,10,No,Sold
+Indiranagar - Bangalore,3,1589,232.87,4,No,Sold
+Kondapur - Hyderabad,3,1694,153.85,4,No,Available
+Borivali - Mumbai,1,607,124.07,0,Yes,Sold
+Noida Sector 62 - Delhi,3,1503,138.6,7,Yes,Sold
+Madhapur - Hyderabad,4,2378,222.65,0,No,Sold
+Banjara Hills - Hyderabad,3,1571,225.92,10,Yes,Sold
+Bandra - Mumbai,2,902,308.75,6,Yes,Sold
+Hebbal - Bangalore,2,1016,71.16,20,No,Available
+Banjara Hills - Hyderabad,3,1673,305.06,5,Yes,Available
+Kondapur - Hyderabad,2,1112,84.59,5,Yes,Available
+Kothrud - Pune,2,989,103.64,7,No,Available
+Indiranagar - Bangalore,2,953,155.84,4,No,Available
+Hadapsar - Pune,1,515,35.39,6,No,Sold
+Thane - Mumbai,2,1135,140.3,12,Yes,Available
+Madhapur - Hyderabad,3,1547,134.79,2,Yes,Available
+Hitech City - Hyderabad,3,1439,162.67,1,Yes,Available
+Whitefield - Bangalore,2,824,62.92,0,No,Sold
+Gurgaon - Delhi,2,1035,168.05,5,Yes,Sold
+Bandra - Mumbai,2,1122,555.9,6,Yes,Available
+Gurgaon - Delhi,2,977,128.66,20,Yes,Available
+Kondapur - Hyderabad,2,1113,91.5,15,No,Sold
+Hadapsar - Pune,2,1007,50.29,12,No,Available
+Sarjapur - Bangalore,3,1594,99.56,4,No,Available
+Anna Nagar - Chennai,1,480,47.11,2,No,Sold
+Banjara Hills - Hyderabad,2,1063,183.99,3,Yes,Available
+Whitefield - Bangalore,2,1095,86.58,12,No,Available
+Kondapur - Hyderabad,2,1064,79.51,6,No,Available
+Kothrud - Pune,2,929,81.79,10,Yes,Sold
+OMR - Chennai,2,1038,84.2,10,Yes,Available
+Powai - Mumbai,2,1106,294.45,10,Yes,Available
+Vasant Kunj - Delhi,2,1017,176.81,8,Yes,Available
+Vasant Kunj - Delhi,1,464,74.46,0,Yes,Available
+Rohini - Delhi,2,1026,94.6,8,Yes,Available
+Hebbal - Bangalore,2,1015,95.35,4,No,Sold
+Thane - Mumbai,2,988,133.06,5,Yes,Sold
+Miyapur - Hyderabad,3,1427,90.04,8,No,Available
+Hitech City - Hyderabad,2,1015,87.6,20,No,Sold
+Hinjewadi - Pune,2,1045,86.09,10,No,Available
+Jubilee Hills - Hyderabad,3,1425,214.74,10,Yes,Available
+Hinjewadi - Pune,2,1019,62.53,8,Yes,Available
+Banjara Hills - Hyderabad,3,1686,263.19,0,No,Available
+Gurgaon - Delhi,3,1600,242.2,4,Yes,Sold
+Marathahalli - Bangalore,1,489,33.97,5,Yes,Available
+Hitech City - Hyderabad,1,527,38.24,20,No,Sold
+Tambaram - Chennai,2,1019,69.93,4,Yes,Sold
+Kondapur - Hyderabad,2,1073,93.84,2,Yes,Sold
+Gachibowli - Hyderabad,3,1694,161.4,3,Yes,Sold
+Dwarka - Delhi,1,465,46.13,1,No,Sold
+Vasant Kunj - Delhi,3,1490,243.41,8,Yes,Available
+Whitefield - Bangalore,3,1646,158.78,5,Yes,Available
+Sarjapur - Bangalore,3,1513,108.9,8,Yes,Sold
+Vasant Kunj - Delhi,3,1749,322.93,6,Yes,Available
+Kothrud - Pune,3,1867,207.73,6,Yes,Available
+Gachibowli - Hyderabad,2,956,105.62,1,Yes,Sold
+Porur - Chennai,2,1044,63.74,2,No,Available
+Kondapur - Hyderabad,2,1054,92.06,7,Yes,Available
+Anna Nagar - Chennai,2,1120,148.36,6,No,Available
+Marathahalli - Bangalore,4,2518,175.94,12,Yes,Available
+Tambaram - Chennai,2,1164,81.23,5,Yes,Sold
+Navi Mumbai - Mumbai,3,1715,188.85,8,Yes,Sold
+Hebbal - Bangalore,3,1583,156.09,5,Yes,Available
+Hadapsar - Pune,2,1023,63.21,8,No,Sold
+Velachery - Chennai,3,1656,144.15,2,Yes,Sold
+Gurgaon - Delhi,2,1086,117.33,3,Yes,Available
+Dwarka - Delhi,3,1698,155.84,4,No,Available
+Whitefield - Bangalore,2,1004,103.48,4,Yes,Sold
+Hinjewadi - Pune,3,1679,147.54,4,Yes,Available
+Velachery - Chennai,2,979,84.64,3,Yes,Sold
+Banjara Hills - Hyderabad,1,616,86.28,12,Yes,Sold
+Marathahalli - Bangalore,2,1076,72.56,7,Yes,Available
+Vasant Kunj - Delhi,3,1561,243.18,12,Yes,Sold
+Andheri - Mumbai,4,1804,422.47,8,Yes,Available
+Kondapur - Hyderabad,2,1156,85.88,6,No,Sold
+Bandra - Mumbai,2,1066,507.54,4,No,Sold
+Rohini - Delhi,3,1669,146.38,20,Yes,Available
+Hitech City - Hyderabad,4,2166,223.28,15,Yes,Sold
+Banjara Hills - Hyderabad,2,1076,160.56,1,Yes,Available
+Borivali - Mumbai,2,862,130.53,7,No,Available
+Miyapur - Hyderabad,2,1106,63.01,5,No,Sold
+Tambaram - Chennai,3,1533,84.35,10,Yes,Sold
+Kothrud - Pune,2,939,79.15,10,No,Available
+Dwarka - Delhi,1,600,51.33,20,Yes,Available
+Gurgaon - Delhi,2,1007,128.44,10,No,Sold
+Anna Nagar - Chennai,2,1014,105.8,8,No,Available
+Gachibowli - Hyderabad,3,1713,127.07,7,Yes,Available
+Whitefield - Bangalore,3,1643,107.39,12,Yes,Sold
+Sarjapur - Bangalore,4,2546,222.0,3,Yes,Available
+Jubilee Hills - Hyderabad,2,1092,146.61,8,No,Sold
+Bandra - Mumbai,2,985,502.17,6,No,Available
+Miyapur - Hyderabad,3,1394,79.46,3,Yes,Available
+Powai - Mumbai,2,1052,245.03,8,Yes,Available
+Powai - Mumbai,4,2433,715.77,12,Yes,Available
+Hadapsar - Pune,1,573,34.35,0,Yes,Sold
+Noida Sector 62 - Delhi,2,1055,81.1,15,No,Available
+Koramangala - Bangalore,3,1718,242.79,3,No,Available
+Anna Nagar - Chennai,2,1105,130.66,0,Yes,Available
+Thane - Mumbai,2,947,111.88,0,No,Available
+Indiranagar - Bangalore,1,488,67.45,2,Yes,Sold
+Sarjapur - Bangalore,2,1176,70.76,5,Yes,Available
+Wakad - Pune,2,1063,84.99,6,No,Available
+Bandra - Mumbai,2,1062,366.77,6,Yes,Available
+Sarjapur - Bangalore,2,1065,67.45,6,Yes,Sold
+Indiranagar - Bangalore,4,2173,393.44,0,Yes,Available
+Marathahalli - Bangalore,4,2355,185.72,5,Yes,Available
+Porur - Chennai,3,1754,102.29,6,No,Sold
+Porur - Chennai,3,1747,122.58,0,Yes,Available
+OMR - Chennai,2,1007,72.91,3,Yes,Available
+Navi Mumbai - Mumbai,2,974,119.18,5,Yes,Sold
+Miyapur - Hyderabad,3,1685,93.01,5,Yes,Available
+Marathahalli - Bangalore,4,2291,189.44,12,Yes,Available
+Hinjewadi - Pune,3,1537,96.89,4,Yes,Available
+Miyapur - Hyderabad,2,1051,50.78,8,Yes,Available
+Thane - Mumbai,4,2258,267.83,5,Yes,Available
+Hebbal - Bangalore,4,2391,202.32,3,No,Sold
+Sarjapur - Bangalore,2,1052,69.77,6,Yes,Sold
+Navi Mumbai - Mumbai,3,1517,152.15,8,No,Available
+Thane - Mumbai,2,1074,141.9,7,Yes,Sold
+Rohini - Delhi,4,2162,197.62,8,Yes,Sold
+Noida Sector 62 - Delhi,2,1079,91.05,1,No,Sold
+Dwarka - Delhi,3,1535,134.0,20,No,Available
+Vasant Kunj - Delhi,2,1026,178.27,12,Yes,Available
+Vasant Kunj - Delhi,2,1217,259.75,1,Yes,Sold
+Bandra - Mumbai,3,1545,584.56,20,Yes,Available
+Kondapur - Hyderabad,1,476,35.03,1,Yes,Sold
+Andheri - Mumbai,2,944,208.01,8,No,Sold
+Anna Nagar - Chennai,2,1074,163.58,1,Yes,Sold
+Marathahalli - Bangalore,2,1094,86.8,7,Yes,Available
+Noida Sector 62 - Delhi,2,1096,104.83,5,Yes,Available
+Kondapur - Hyderabad,1,530,42.01,5,Yes,Sold
+Banjara Hills - Hyderabad,1,472,55.05,3,Yes,Sold
+OMR - Chennai,3,1458,95.49,7,Yes,Sold
+Powai - Mumbai,2,1025,233.0,10,No,Available
+Vasant Kunj - Delhi,3,1557,274.4,7,Yes,Sold
+Andheri - Mumbai,2,1027,248.34,5,Yes,Sold
+Indiranagar - Bangalore,3,1495,209.76,4,No,Available
+Hinjewadi - Pune,2,1069,65.66,15,Yes,Available
+Kukatpally - Hyderabad,3,1691,105.12,7,Yes,Available
+Miyapur - Hyderabad,2,1089,57.74,1,Yes,Sold
+Navi Mumbai - Mumbai,3,1752,161.56,3,No,Available
+Bandra - Mumbai,3,1605,802.81,2,No,Available
+Andheri - Mumbai,3,1650,377.75,1,Yes,Available
+Wakad - Pune,2,1153,99.0,5,Yes,Sold
+Koramangala - Bangalore,3,1469,225.87,2,Yes,Sold
+Kothrud - Pune,2,1022,118.21,0,Yes,Sold
+Porur - Chennai,3,1751,142.78,3,Yes,Available
+Marathahalli - Bangalore,3,1586,117.27,10,Yes,Available
+Madhapur - Hyderabad,2,1026,89.25,0,Yes,Available
+OMR - Chennai,3,1550,98.92,12,Yes,Available
+Gachibowli - Hyderabad,2,899,66.68,6,Yes,Available
+Sarjapur - Bangalore,4,2431,209.12,3,Yes,Sold
+Kondapur - Hyderabad,3,1553,124.71,1,Yes,Available
+Baner - Pune,3,1435,151.97,6,Yes,Sold
+Bandra - Mumbai,2,1065,567.93,2,Yes,Available
+Hinjewadi - Pune,2,1104,104.09,1,Yes,Available
+Borivali - Mumbai,3,1653,264.7,8,Yes,Available
+Anna Nagar - Chennai,2,1084,166.05,3,Yes,Available
+Porur - Chennai,2,1040,56.14,12,Yes,Available
+Hadapsar - Pune,2,1059,58.72,6,Yes,Available
+Koramangala - Bangalore,2,1028,124.87,12,Yes,Available
+Kukatpally - Hyderabad,2,1019,72.21,10,Yes,Available
+Anna Nagar - Chennai,1,681,63.8,6,No,Sold
+Gachibowli - Hyderabad,3,1694,170.44,2,Yes,Sold
+Vasant Kunj - Delhi,1,548,113.78,4,Yes,Sold
+Kothrud - Pune,3,1565,140.73,20,Yes,Sold
+Powai - Mumbai,2,1016,178.5,12,No,Available
+Madhapur - Hyderabad,3,1556,120.55,10,No,Available
+Porur - Chennai,2,968,72.3,3,Yes,Available
+Anna Nagar - Chennai,2,1046,122.25,2,Yes,Sold
+Powai - Mumbai,2,1123,288.62,12,Yes,Sold
+Koramangala - Bangalore,2,1043,157.94,3,Yes,Available
+Thane - Mumbai,2,1082,135.44,0,No,Sold
+Borivali - Mumbai,3,1529,242.24,3,Yes,Available
+Navi Mumbai - Mumbai,3,1867,181.24,3,Yes,Available
+Electronic City - Bangalore,2,1092,72.39,3,Yes,Sold
+Hebbal - Bangalore,4,2181,238.95,5,No,Available
+Marathahalli - Bangalore,2,983,86.13,4,No,Available
+Hitech City - Hyderabad,1,525,43.95,1,Yes,Available
+Sarjapur - Bangalore,1,515,36.95,1,Yes,Available
+Rohini - Delhi,2,954,66.92,5,No,Available
+Anna Nagar - Chennai,2,993,98.07,12,No,Available
+Dwarka - Delhi,3,1469,133.0,6,No,Available
+Rohini - Delhi,4,2197,170.63,6,Yes,Available
+Powai - Mumbai,3,1585,511.12,1,Yes,Sold
+Velachery - Chennai,3,1559,127.82,4,Yes,Sold
+Borivali - Mumbai,2,1124,209.91,8,Yes,Available
+Banjara Hills - Hyderabad,2,1032,140.32,12,No,Sold
+Noida Sector 62 - Delhi,2,1047,70.99,6,Yes,Sold
+Electronic City - Bangalore,3,1347,112.39,1,Yes,Sold
+Anna Nagar - Chennai,4,2214,327.92,3,Yes,Sold
+Anna Nagar - Chennai,3,1551,202.51,12,Yes,Available
+Bandra - Mumbai,2,1104,561.69,4,Yes,Available
+Powai - Mumbai,2,1116,223.16,20,Yes,Available
+Navi Mumbai - Mumbai,2,990,119.92,3,Yes,Available
+Velachery - Chennai,3,1842,161.97,10,Yes,Available
+Baner - Pune,4,2423,242.39,7,No,Sold
+Tambaram - Chennai,2,1188,53.0,7,Yes,Sold
+Bandra - Mumbai,2,1057,440.1,6,No,Sold
+Vasant Kunj - Delhi,3,1422,287.98,0,Yes,Sold
+Bandra - Mumbai,1,575,207.39,3,Yes,Sold
+Sarjapur - Bangalore,4,2338,200.43,3,Yes,Sold
+Sarjapur - Bangalore,2,958,73.57,0,Yes,Available
+Koramangala - Bangalore,3,1634,242.43,0,No,Sold
+Jubilee Hills - Hyderabad,2,1049,172.84,0,Yes,Sold
+Kondapur - Hyderabad,3,1747,122.8,7,No,Available
+Whitefield - Bangalore,2,1135,80.9,7,Yes,Available
+Miyapur - Hyderabad,3,1690,107.29,7,Yes,Available
+Madhapur - Hyderabad,3,1726,125.69,2,Yes,Sold
+Navi Mumbai - Mumbai,2,1128,146.05,2,Yes,Sold
+Hinjewadi - Pune,2,988,69.2,12,Yes,Available
+Dwarka - Delhi,3,1822,206.34,2,No,Sold
+Wakad - Pune,3,1617,158.68,1,No,Sold
+Electronic City - Bangalore,3,1708,93.41,12,Yes,Available
+Kondapur - Hyderabad,2,1164,97.1,5,Yes,Available
+Bandra - Mumbai,2,1035,456.96,20,Yes,Available
+Dwarka - Delhi,4,2326,246.08,6,No,Available
+Wakad - Pune,2,1114,107.52,0,Yes,Sold
+Jubilee Hills - Hyderabad,2,1014,166.04,3,No,Available
+Gachibowli - Hyderabad,3,1603,152.09,5,No,Sold
+Noida Sector 62 - Delhi,2,1057,84.23,3,No,Sold
+Marathahalli - Bangalore,2,1128,84.89,1,Yes,Available
+Kothrud - Pune,2,1055,120.01,4,Yes,Sold
+Hadapsar - Pune,3,1472,100.18,20,No,Available
+Thane - Mumbai,2,961,107.54,15,Yes,Available
+Gurgaon - Delhi,2,1119,138.02,12,No,Available
+Sarjapur - Bangalore,2,1042,68.25,10,Yes,Available
+Madhapur - Hyderabad,3,1666,142.46,10,Yes,Available
+Powai - Mumbai,3,1461,412.14,3,Yes,Available
+Koramangala - Bangalore,2,1062,147.97,8,No,Sold
+Marathahalli - Bangalore,2,982,66.48,15,Yes,Available
+Hebbal - Bangalore,3,1535,169.89,1,Yes,Available
+Kothrud - Pune,2,1216,127.93,2,No,Available
+Sarjapur - Bangalore,2,940,58.38,0,No,Sold
+Whitefield - Bangalore,3,1755,168.31,4,Yes,Available
+Borivali - Mumbai,3,1688,315.54,8,Yes,Sold
+Andheri - Mumbai,2,969,213.15,0,Yes,Sold
+Dwarka - Delhi,2,1115,100.08,10,No,Sold
+HSR Layout - Bangalore,1,603,63.36,6,Yes,Sold
+Banjara Hills - Hyderabad,4,2607,432.85,7,Yes,Sold
+Whitefield - Bangalore,2,998,81.07,5,Yes,Sold
+Baner - Pune,2,1108,85.99,6,Yes,Available
+Thane - Mumbai,2,1069,134.24,2,Yes,Available
+HSR Layout - Bangalore,2,912,108.0,4,No,Available
+Baner - Pune,4,2663,257.57,10,Yes,Sold
+Kondapur - Hyderabad,2,1049,90.79,4,Yes,Sold
+Andheri - Mumbai,1,526,104.22,10,Yes,Available
+Hinjewadi - Pune,1,553,29.7,12,No,Available
+Baner - Pune,3,1630,130.43,5,Yes,Available
+Hebbal - Bangalore,3,1697,146.24,20,Yes,Sold
+Koramangala - Bangalore,2,989,110.31,5,No,Available
+Porur - Chennai,2,1199,90.45,6,No,Sold
+Gachibowli - Hyderabad,3,1637,146.68,5,Yes,Available
+Miyapur - Hyderabad,2,1107,61.39,0,No,Available
+Jubilee Hills - Hyderabad,4,2388,370.77,12,Yes,Sold
+Borivali - Mumbai,2,1052,175.33,8,Yes,Available
+Anna Nagar - Chennai,2,1203,120.86,6,Yes,Available
+Hinjewadi - Pune,1,481,32.51,1,Yes,Available
+Marathahalli - Bangalore,4,2075,160.97,0,No,Available
+Hadapsar - Pune,2,988,72.09,2,No,Available
+Wakad - Pune,3,1704,151.93,2,No,Sold
+Marathahalli - Bangalore,3,1835,127.36,12,Yes,Sold
+Bandra - Mumbai,3,1678,576.76,15,Yes,Sold
+Madhapur - Hyderabad,3,1651,138.44,3,Yes,Available
+Bandra - Mumbai,2,1170,449.31,2,No,Sold
+Gurgaon - Delhi,4,2485,337.63,10,No,Sold
+Jubilee Hills - Hyderabad,3,1737,262.6,8,Yes,Available
+Kukatpally - Hyderabad,2,977,60.22,7,Yes,Sold
+Wakad - Pune,3,1488,109.35,7,Yes,Sold
+Navi Mumbai - Mumbai,3,1551,172.95,8,No,Available
+Indiranagar - Bangalore,2,919,129.6,2,Yes,Sold
+Navi Mumbai - Mumbai,2,1105,145.67,2,Yes,Sold
+Hebbal - Bangalore,1,547,49.65,5,Yes,Sold
+Hinjewadi - Pune,3,1618,110.01,12,No,Sold
+Hebbal - Bangalore,2,1086,102.18,7,No,Available
+Velachery - Chennai,3,1522,144.75,5,Yes,Available
+Velachery - Chennai,3,1676,124.85,4,No,Available
+Dwarka - Delhi,1,581,47.73,10,Yes,Available
+Hadapsar - Pune,3,1301,91.24,7,Yes,Sold
+Indiranagar - Bangalore,2,992,161.34,6,Yes,Sold
+Gachibowli - Hyderabad,3,1601,132.81,2,Yes,Available
+Miyapur - Hyderabad,1,522,23.81,3,No,Available
+Porur - Chennai,4,2836,235.31,1,Yes,Available
+Tambaram - Chennai,2,1047,63.65,15,Yes,Sold
+Vasant Kunj - Delhi,4,2713,494.07,5,Yes,Sold
+Kukatpally - Hyderabad,2,1103,73.79,4,Yes,Sold
+Whitefield - Bangalore,3,1636,135.35,2,No,Sold
+Koramangala - Bangalore,4,2706,436.82,2,Yes,Sold
+Hitech City - Hyderabad,3,1355,107.18,6,Yes,Sold
+Powai - Mumbai,1,511,131.34,5,No,Sold
+Velachery - Chennai,3,1353,106.59,15,Yes,Sold
+Gurgaon - Delhi,3,1684,185.63,1,Yes,Available
+Navi Mumbai - Mumbai,2,1077,124.99,0,Yes,Available
+Hadapsar - Pune,4,2370,163.88,5,Yes,Sold
+Kondapur - Hyderabad,4,2383,192.9,6,Yes,Available
+Navi Mumbai - Mumbai,2,944,112.74,8,No,Sold
+Borivali - Mumbai,2,989,218.89,1,No,Available
+Borivali - Mumbai,2,962,141.36,12,Yes,Sold
+Gurgaon - Delhi,3,1606,179.58,12,Yes,Available
+Tambaram - Chennai,2,913,51.44,7,No,Available
+Marathahalli - Bangalore,2,1100,100.27,0,Yes,Available
+Kothrud - Pune,3,1471,165.42,3,No,Sold
+Thane - Mumbai,3,1559,238.64,4,Yes,Available
+Madhapur - Hyderabad,3,1738,131.67,5,Yes,Available
+Borivali - Mumbai,2,958,160.09,10,No,Available
+Kothrud - Pune,3,1590,133.13,20,Yes,Sold
+Hadapsar - Pune,3,1694,94.28,6,No,Sold
+Hebbal - Bangalore,3,1585,132.66,20,No,Sold
+Electronic City - Bangalore,3,1497,86.95,7,Yes,Sold
+Sarjapur - Bangalore,3,1730,146.52,3,Yes,Available
+Velachery - Chennai,4,2418,225.72,12,Yes,Sold
+Porur - Chennai,4,2070,169.17,8,Yes,Sold
+Rohini - Delhi,3,1567,109.07,12,Yes,Available
+Porur - Chennai,2,1074,78.88,0,Yes,Sold
+Koramangala - Bangalore,2,1037,133.81,7,Yes,Available
+Electronic City - Bangalore,2,1125,68.5,3,No,Available
+OMR - Chennai,2,1048,63.89,12,No,Sold
+OMR - Chennai,2,909,70.66,4,Yes,Available
+Andheri - Mumbai,4,2505,583.93,5,No,Sold
+Indiranagar - Bangalore,2,911,148.59,5,Yes,Sold
+HSR Layout - Bangalore,3,1518,158.98,2,No,Available
+Vasant Kunj - Delhi,3,1516,304.83,4,Yes,Available
+Kothrud - Pune,3,1605,150.35,7,No,Sold
+Anna Nagar - Chennai,3,1626,235.38,1,No,Sold
+Hebbal - Bangalore,2,1060,95.85,4,Yes,Available
+Banjara Hills - Hyderabad,1,515,55.92,12,Yes,Available
+Sarjapur - Bangalore,2,1056,70.74,12,Yes,Sold
+Borivali - Mumbai,2,893,171.42,4,Yes,Available
+Andheri - Mumbai,3,1574,375.89,2,No,Available
+Banjara Hills - Hyderabad,3,1626,217.6,4,Yes,Sold
+Marathahalli - Bangalore,1,503,33.25,2,Yes,Available
+Baner - Pune,2,1112,107.22,5,Yes,Sold
+HSR Layout - Bangalore,3,1541,177.04,8,Yes,Sold
+Miyapur - Hyderabad,3,1291,81.96,3,No,Sold
+Jubilee Hills - Hyderabad,3,1439,193.16,4,Yes,Sold
+Marathahalli - Bangalore,1,478,38.59,4,Yes,Sold
+Powai - Mumbai,2,1171,324.6,6,No,Sold
+Andheri - Mumbai,4,2407,573.56,15,Yes,Available
+Bandra - Mumbai,3,1506,637.98,8,Yes,Available
+Gachibowli - Hyderabad,2,882,65.04,7,Yes,Sold
+Dwarka - Delhi,2,1159,134.32,3,Yes,Available
+Vasant Kunj - Delhi,2,1056,193.29,15,Yes,Sold
+Thane - Mumbai,4,2327,313.24,4,Yes,Available
+Bandra - Mumbai,4,2444,1019.7,6,Yes,Sold
+Hebbal - Bangalore,2,1149,90.94,2,Yes,Sold
+Velachery - Chennai,2,1044,109.27,1,Yes,Available
+Hadapsar - Pune,2,956,68.48,5,Yes,Available
+Gachibowli - Hyderabad,3,1523,145.56,1,Yes,Available
+Navi Mumbai - Mumbai,2,1071,107.99,15,Yes,Sold
+Hinjewadi - Pune,4,2540,216.31,10,Yes,Available
+Jubilee Hills - Hyderabad,3,1526,246.44,6,Yes,Sold
+Gurgaon - Delhi,3,1647,215.07,12,Yes,Available
+Kothrud - Pune,2,1050,113.52,10,Yes,Available
+Whitefield - Bangalore,2,1000,94.0,4,Yes,Available
+Navi Mumbai - Mumbai,4,2034,290.48,4,Yes,Sold
+Borivali - Mumbai,2,1106,184.84,2,Yes,Sold
+Andheri - Mumbai,2,1028,236.1,6,Yes,Sold
+Kothrud - Pune,1,588,54.34,6,Yes,Available
+Kukatpally - Hyderabad,2,1138,87.2,0,No,Sold
+Dwarka - Delhi,2,1008,103.33,20,No,Available
+Noida Sector 62 - Delhi,3,1813,150.97,8,Yes,Available
+Kukatpally - Hyderabad,1,459,25.49,0,Yes,Available
+Banjara Hills - Hyderabad,3,1807,334.11,4,Yes,Sold
+OMR - Chennai,3,1453,101.35,2,Yes,Available
+Velachery - Chennai,4,2286,171.98,7,Yes,Available
+Electronic City - Bangalore,2,1151,83.32,3,Yes,Sold
+Kondapur - Hyderabad,2,1009,71.66,3,No,Available
+Noida Sector 62 - Delhi,2,991,66.78,7,No,Sold
+Sarjapur - Bangalore,2,1041,57.61,8,No,Sold
+Andheri - Mumbai,2,981,231.23,6,Yes,Available
+Dwarka - Delhi,2,1107,107.43,0,Yes,Available
+OMR - Chennai,2,990,56.67,20,Yes,Sold
+Anna Nagar - Chennai,2,956,117.24,20,Yes,Sold
+Koramangala - Bangalore,3,1826,265.27,4,Yes,Sold
+Thane - Mumbai,2,942,98.22,5,Yes,Sold
+Marathahalli - Bangalore,3,1541,117.87,12,Yes,Sold
+Miyapur - Hyderabad,2,1145,68.56,12,No,Available
+Indiranagar - Bangalore,1,494,73.79,1,Yes,Sold
+Kukatpally - Hyderabad,4,2635,162.25,4,Yes,Sold
+Gachibowli - Hyderabad,4,2209,222.52,2,Yes,Available
+Marathahalli - Bangalore,2,1113,74.51,10,Yes,Sold
+Gachibowli - Hyderabad,3,1496,122.14,8,Yes,Sold
+Powai - Mumbai,1,570,139.81,3,Yes,Sold
+Andheri - Mumbai,2,1060,173.87,12,No,Available
+Kothrud - Pune,3,1496,158.34,20,Yes,Sold
+Whitefield - Bangalore,2,1171,110.78,2,No,Sold
+Powai - Mumbai,2,1219,247.65,12,Yes,Sold
+Indiranagar - Bangalore,1,529,85.46,3,Yes,Available
+Hebbal - Bangalore,2,1136,97.67,6,Yes,Available
+Borivali - Mumbai,3,1665,327.04,3,Yes,Sold
+Anna Nagar - Chennai,3,1487,157.34,4,Yes,Available
+Hitech City - Hyderabad,1,625,62.06,0,No,Available
+Noida Sector 62 - Delhi,1,541,39.44,20,Yes,Available
+OMR - Chennai,1,563,33.49,12,Yes,Available
+Hebbal - Bangalore,2,1045,79.11,15,Yes,Available
+Hinjewadi - Pune,3,1471,104.49,10,No,Available
+Koramangala - Bangalore,2,854,129.02,6,No,Available
+Madhapur - Hyderabad,3,1154,83.11,6,No,Sold
+Thane - Mumbai,2,1014,145.88,2,Yes,Available
+Bandra - Mumbai,2,1014,376.22,3,Yes,Available
+Tambaram - Chennai,2,1145,65.58,4,Yes,Available
+HSR Layout - Bangalore,4,2099,310.23,0,Yes,Sold
+Marathahalli - Bangalore,3,1448,107.65,8,No,Sold
+Gurgaon - Delhi,4,2321,340.19,1,Yes,Sold
+Electronic City - Bangalore,2,1109,81.98,4,No,Available
+Baner - Pune,4,2516,233.31,0,Yes,Available
+Gachibowli - Hyderabad,2,1079,109.81,8,Yes,Available
+Banjara Hills - Hyderabad,3,1596,282.33,3,Yes,Available
+Tambaram - Chennai,1,550,31.13,0,Yes,Available
+Porur - Chennai,3,1523,95.32,4,Yes,Available
+Hadapsar - Pune,3,1735,99.68,7,Yes,Available
+Powai - Mumbai,2,1034,303.31,3,No,Available
+Thane - Mumbai,2,1162,177.18,1,No,Sold
+Hadapsar - Pune,2,1068,79.26,10,Yes,Available
+Madhapur - Hyderabad,3,1492,132.09,2,Yes,Available
+OMR - Chennai,1,528,30.3,6,Yes,Sold
+Thane - Mumbai,2,1247,138.44,12,Yes,Sold
+Hadapsar - Pune,3,1671,81.66,20,No,Available
+Rohini - Delhi,2,1176,108.34,8,No,Available
+HSR Layout - Bangalore,2,828,87.06,0,Yes,Sold
+Madhapur - Hyderabad,2,963,74.63,10,Yes,Sold
+Kukatpally - Hyderabad,3,1740,113.34,15,Yes,Sold
+Koramangala - Bangalore,3,1666,262.43,2,Yes,Available
+Vasant Kunj - Delhi,2,1067,166.1,3,Yes,Sold
+Hinjewadi - Pune,4,2838,257.6,5,Yes,Sold
+Rohini - Delhi,2,1026,72.5,12,Yes,Sold
+Wakad - Pune,4,2264,228.62,1,Yes,Sold
+Indiranagar - Bangalore,2,1193,214.4,1,Yes,Sold
+Hadapsar - Pune,3,1466,96.75,4,Yes,Sold
+Borivali - Mumbai,2,1037,147.54,7,No,Available
+Koramangala - Bangalore,3,1474,209.53,4,Yes,Sold
+Madhapur - Hyderabad,3,1709,128.36,0,No,Sold
+Velachery - Chennai,2,1054,101.3,2,No,Available
+Anna Nagar - Chennai,3,1603,228.16,4,No,Sold
+Gachibowli - Hyderabad,1,433,35.24,2,Yes,Available
+Borivali - Mumbai,2,887,183.39,4,Yes,Sold
+Hadapsar - Pune,3,1587,106.65,15,Yes,Sold
+Indiranagar - Bangalore,2,1029,141.72,6,Yes,Sold
+Marathahalli - Bangalore,2,961,83.09,3,Yes,Sold
+Rohini - Delhi,3,1424,105.34,2,Yes,Sold
+Navi Mumbai - Mumbai,2,1028,132.5,2,Yes,Available
+Rohini - Delhi,2,941,73.17,8,Yes,Sold
+Thane - Mumbai,4,2379,361.03,6,Yes,Sold
+Wakad - Pune,3,1491,130.1,2,No,Available
+Jubilee Hills - Hyderabad,2,1100,175.48,12,No,Available
+Hebbal - Bangalore,2,1076,80.64,10,Yes,Sold
+Rohini - Delhi,3,1474,117.82,7,No,Available
+Hitech City - Hyderabad,2,1080,120.39,4,Yes,Available
+Gachibowli - Hyderabad,3,1679,187.3,1,Yes,Available
+Hinjewadi - Pune,2,1006,59.93,8,No,Sold
+Whitefield - Bangalore,4,2593,207.81,12,Yes,Available
+Baner - Pune,3,1435,128.42,4,Yes,Available
+Dwarka - Delhi,2,1065,94.23,3,No,Available
+Hitech City - Hyderabad,2,1100,103.6,20,Yes,Sold
+Gachibowli - Hyderabad,3,1711,137.36,3,Yes,Available
+Sarjapur - Bangalore,2,955,60.83,4,No,Available
+Navi Mumbai - Mumbai,3,1525,173.72,6,Yes,Sold
+Dwarka - Delhi,2,991,102.26,0,No,Sold
+Koramangala - Bangalore,3,1688,232.5,7,Yes,Sold
+Vasant Kunj - Delhi,3,1605,290.76,10,Yes,Available
+Hadapsar - Pune,2,890,52.74,8,Yes,Available
+Marathahalli - Bangalore,3,1529,138.8,1,No,Available
+Wakad - Pune,3,1580,130.33,6,Yes,Available
+HSR Layout - Bangalore,3,1545,188.8,2,Yes,Sold
+Vasant Kunj - Delhi,3,1652,307.19,15,Yes,Available
+Velachery - Chennai,3,1536,139.93,3,No,Sold
+Anna Nagar - Chennai,2,1102,139.61,12,Yes,Available
+Noida Sector 62 - Delhi,2,971,89.36,7,Yes,Available
+Rohini - Delhi,2,1129,90.09,3,No,Sold
+Tambaram - Chennai,3,1774,102.92,15,No,Available
+Kothrud - Pune,4,2078,213.82,12,Yes,Available
+Andheri - Mumbai,3,1501,286.23,4,Yes,Available
+Madhapur - Hyderabad,3,1668,154.02,4,Yes,Sold
+Thane - Mumbai,1,603,78.87,5,No,Available
+Anna Nagar - Chennai,3,1520,201.74,4,Yes,Available
+Andheri - Mumbai,1,574,130.72,1,Yes,Available
+Vasant Kunj - Delhi,2,1014,149.84,15,No,Available
+Bandra - Mumbai,3,1715,762.45,8,Yes,Available
+Powai - Mumbai,2,1033,255.99,2,Yes,Available
+Madhapur - Hyderabad,2,1095,82.27,6,Yes,Available
+Wakad - Pune,2,1025,79.01,6,Yes,Available
+Hinjewadi - Pune,2,976,63.85,1,No,Available
+Indiranagar - Bangalore,3,1668,211.92,7,No,Available
+OMR - Chennai,2,1263,72.24,20,No,Sold
+Porur - Chennai,2,1002,66.61,8,No,Available
+Rohini - Delhi,3,1560,141.83,8,No,Sold
+Banjara Hills - Hyderabad,3,1672,223.41,10,Yes,Sold
+Noida Sector 62 - Delhi,2,997,75.78,6,Yes,Available
+Noida Sector 62 - Delhi,3,1675,142.11,2,Yes,Available
+Electronic City - Bangalore,3,1622,98.61,15,Yes,Sold
+Hinjewadi - Pune,2,1016,73.04,2,No,Available
+OMR - Chennai,3,1556,104.97,6,Yes,Sold
+Kondapur - Hyderabad,2,990,70.68,15,No,Sold
+Madhapur - Hyderabad,2,951,74.81,6,Yes,Sold
+Whitefield - Bangalore,3,1477,134.78,5,No,Sold
+Baner - Pune,4,2297,184.04,6,Yes,Available
+Hitech City - Hyderabad,2,1082,100.03,3,Yes,Available
+Baner - Pune,2,1272,103.86,4,Yes,Available
+OMR - Chennai,2,1013,61.0,15,Yes,Available
+Hinjewadi - Pune,3,1537,106.05,5,Yes,Available
+Gachibowli - Hyderabad,2,1098,79.48,8,No,Available
+Navi Mumbai - Mumbai,2,1076,130.55,2,Yes,Available
+Kothrud - Pune,2,1045,109.29,10,No,Available
+Borivali - Mumbai,4,2535,419.57,6,Yes,Sold
+Koramangala - Bangalore,2,944,137.91,0,Yes,Sold
+Jubilee Hills - Hyderabad,4,2368,405.89,3,No,Sold
+Tambaram - Chennai,2,1106,66.59,2,Yes,Available
+Bandra - Mumbai,1,531,252.97,10,Yes,Available
+Hinjewadi - Pune,2,1090,77.58,20,Yes,Available
+Bandra - Mumbai,2,1128,504.2,4,Yes,Sold
+Wakad - Pune,3,1467,140.44,1,Yes,Available
+HSR Layout - Bangalore,2,983,88.41,7,Yes,Available
+Kukatpally - Hyderabad,1,517,30.73,20,Yes,Available
+Vasant Kunj - Delhi,1,460,70.63,6,No,Sold
+Jubilee Hills - Hyderabad,3,1749,304.21,1,Yes,Available
+Tambaram - Chennai,3,1552,74.28,2,No,Sold
+Noida Sector 62 - Delhi,1,581,46.08,6,No,Available
+Madhapur - Hyderabad,4,2328,175.62,8,Yes,Available
+Koramangala - Bangalore,3,1688,265.85,0,Yes,Available
+HSR Layout - Bangalore,2,1078,124.04,6,Yes,Sold
+Hadapsar - Pune,3,1787,125.32,2,Yes,Available
+Wakad - Pune,2,1068,85.76,2,Yes,Sold
+Electronic City - Bangalore,2,982,56.53,4,Yes,Available
+Powai - Mumbai,3,1504,294.69,12,Yes,Available
+Koramangala - Bangalore,2,950,132.59,8,Yes,Sold
+Kothrud - Pune,1,615,51.27,5,Yes,Available
+Anna Nagar - Chennai,2,1021,124.49,12,Yes,Sold
+Banjara Hills - Hyderabad,1,464,73.57,7,Yes,Available
+Baner - Pune,2,1078,87.02,15,Yes,Sold
+Baner - Pune,1,475,37.64,0,No,Available
+Whitefield - Bangalore,3,1604,162.95,5,Yes,Sold
+Thane - Mumbai,3,1605,211.17,4,No,Available
+Wakad - Pune,3,1696,107.75,15,Yes,Available
+Marathahalli - Bangalore,2,961,71.51,0,No,Available
+Dwarka - Delhi,2,931,105.69,6,Yes,Sold
+Koramangala - Bangalore,1,583,84.62,3,Yes,Sold
+Tambaram - Chennai,4,2345,156.28,6,Yes,Sold
+Madhapur - Hyderabad,4,2462,243.2,5,Yes,Available
+OMR - Chennai,3,1535,113.91,1,Yes,Sold
+Velachery - Chennai,2,1186,121.17,2,Yes,Available
+HSR Layout - Bangalore,2,1102,134.24,6,Yes,Available
+Banjara Hills - Hyderabad,4,2512,361.61,10,No,Available
+Hebbal - Bangalore,3,1485,145.47,3,Yes,Available
+Rohini - Delhi,3,1450,134.18,3,No,Available
+Thane - Mumbai,2,1098,146.62,5,Yes,Available
+Madhapur - Hyderabad,4,2275,198.49,7,Yes,Sold
+Bandra - Mumbai,3,1713,613.92,6,Yes,Available
+Jubilee Hills - Hyderabad,3,1530,255.71,8,Yes,Available
+Jubilee Hills - Hyderabad,2,1075,198.31,4,Yes,Available
+Kothrud - Pune,4,2360,265.96,6,Yes,Available
+Whitefield - Bangalore,3,1523,108.0,6,No,Sold
+Banjara Hills - Hyderabad,3,1810,320.82,2,Yes,Available
+Velachery - Chennai,3,1819,187.61,3,Yes,Sold
+Hitech City - Hyderabad,2,942,84.79,7,Yes,Available
+Gurgaon - Delhi,2,1044,113.94,8,No,Sold
+Andheri - Mumbai,3,1533,405.19,4,Yes,Available
+Hitech City - Hyderabad,2,1107,94.89,2,Yes,Sold
+Noida Sector 62 - Delhi,2,1335,107.92,4,No,Sold
+Baner - Pune,2,913,98.83,2,No,Sold
+Wakad - Pune,2,1064,101.34,0,Yes,Sold
+Anna Nagar - Chennai,2,1207,133.15,20,Yes,Available
+Noida Sector 62 - Delhi,2,1050,83.26,5,No,Available
+Miyapur - Hyderabad,2,1166,76.18,2,Yes,Available
+Hinjewadi - Pune,4,2408,175.28,7,No,Sold
+Bandra - Mumbai,2,1151,470.54,10,Yes,Available
+Vasant Kunj - Delhi,3,1684,326.01,6,No,Sold
+Hitech City - Hyderabad,2,990,92.68,6,No,Available
+HSR Layout - Bangalore,2,1021,112.71,10,No,Sold
+Gachibowli - Hyderabad,1,564,36.92,20,No,Available
+Banjara Hills - Hyderabad,3,1709,219.17,15,Yes,Available
+Marathahalli - Bangalore,1,518,31.76,5,No,Available
+Baner - Pune,2,1077,106.9,7,No,Available
+Thane - Mumbai,2,977,140.55,3,No,Available
+Hinjewadi - Pune,2,937,87.52,4,Yes,Available
+Noida Sector 62 - Delhi,3,1738,162.6,1,Yes,Sold
+Noida Sector 62 - Delhi,3,1485,118.93,3,Yes,Available
+Rohini - Delhi,2,1220,97.6,4,No,Available
+Porur - Chennai,1,553,30.79,5,Yes,Available
+Kothrud - Pune,3,1420,158.52,2,Yes,Sold
+Whitefield - Bangalore,2,1196,94.49,4,Yes,Sold
+Rohini - Delhi,3,1739,145.01,15,Yes,Available
+OMR - Chennai,2,1092,64.5,7,Yes,Sold
+Porur - Chennai,2,1220,87.26,5,Yes,Available
+Wakad - Pune,2,955,68.73,10,Yes,Available
+Dwarka - Delhi,2,1153,116.79,4,Yes,Available
+Marathahalli - Bangalore,3,1314,87.73,8,Yes,Available
+Kothrud - Pune,2,1025,113.07,3,No,Sold
+Porur - Chennai,4,2795,199.31,6,Yes,Sold
+Hinjewadi - Pune,2,1018,81.93,3,Yes,Sold
+Kukatpally - Hyderabad,3,1516,113.06,3,No,Available
+HSR Layout - Bangalore,2,910,90.78,8,Yes,Sold
+Noida Sector 62 - Delhi,2,1028,89.57,1,Yes,Available
+Gurgaon - Delhi,2,1026,140.37,8,Yes,Available
+Sarjapur - Bangalore,3,1744,133.58,0,Yes,Sold
+Dwarka - Delhi,2,823,73.48,8,Yes,Available
+Porur - Chennai,2,984,82.21,2,Yes,Available
+Thane - Mumbai,2,1068,152.16,1,Yes,Available
+HSR Layout - Bangalore,2,1066,94.8,12,Yes,Sold
+HSR Layout - Bangalore,2,980,97.04,10,No,Sold
+Tambaram - Chennai,2,976,46.05,6,Yes,Available
+Noida Sector 62 - Delhi,3,1592,127.45,1,Yes,Sold
+Noida Sector 62 - Delhi,2,953,77.29,20,Yes,Available
+Velachery - Chennai,2,1060,70.35,12,Yes,Available
+Hadapsar - Pune,4,2410,149.05,2,Yes,Sold
+Porur - Chennai,3,1853,138.71,3,Yes,Available
+Gurgaon - Delhi,2,972,92.16,15,Yes,Sold
+Dwarka - Delhi,1,681,45.39,20,No,Available
+Rohini - Delhi,3,1372,124.6,2,Yes,Sold
+Dwarka - Delhi,2,996,94.5,4,No,Available
+Baner - Pune,3,1472,143.91,7,Yes,Available
+Baner - Pune,2,1073,113.59,10,Yes,Available
+Hinjewadi - Pune,2,1124,85.84,2,Yes,Available
+Wakad - Pune,2,1126,93.11,8,No,Available
+Hebbal - Bangalore,4,2091,222.76,2,Yes,Sold
+HSR Layout - Bangalore,2,988,112.64,4,Yes,Sold
+Navi Mumbai - Mumbai,2,1204,159.33,3,Yes,Available
+Wakad - Pune,3,1616,116.08,4,Yes,Available
+Electronic City - Bangalore,4,2578,145.93,6,No,Available
+Marathahalli - Bangalore,2,1141,92.59,7,Yes,Available
+Electronic City - Bangalore,2,903,63.22,5,Yes,Available
+OMR - Chennai,3,1618,119.49,20,Yes,Available
+Porur - Chennai,1,588,43.33,3,No,Sold
+Anna Nagar - Chennai,2,937,99.83,7,Yes,Available
+Indiranagar - Bangalore,3,1322,179.28,4,No,Available
+Borivali - Mumbai,2,994,191.93,20,Yes,Sold
+Indiranagar - Bangalore,4,2485,406.57,2,Yes,Available
+Anna Nagar - Chennai,2,1192,168.22,5,Yes,Available
+Sarjapur - Bangalore,1,525,28.59,7,Yes,Available
+Wakad - Pune,3,1548,116.82,0,No,Available
+Noida Sector 62 - Delhi,2,941,69.34,3,Yes,Available
+Koramangala - Bangalore,2,964,134.94,1,Yes,Available
+Kondapur - Hyderabad,2,819,59.95,5,Yes,Available
+Navi Mumbai - Mumbai,2,1078,135.84,0,Yes,Sold
+Electronic City - Bangalore,2,1022,54.47,7,No,Sold
+Porur - Chennai,2,1135,85.25,6,No,Available
+Sarjapur - Bangalore,2,986,60.5,12,No,Available
+Bandra - Mumbai,3,1753,807.17,6,No,Sold
+Vasant Kunj - Delhi,2,1063,166.77,3,Yes,Available
+Gurgaon - Delhi,3,1732,227.36,1,Yes,Available
+Bandra - Mumbai,2,1048,393.17,2,No,Available
+Vasant Kunj - Delhi,2,991,149.76,12,Yes,Available
+Navi Mumbai - Mumbai,3,1586,182.23,6,Yes,Available
+Hitech City - Hyderabad,4,2351,247.89,15,Yes,Available
+Miyapur - Hyderabad,2,1115,55.64,15,No,Available
+Hebbal - Bangalore,3,1808,200.98,1,Yes,Sold
+Bandra - Mumbai,2,1076,549.31,5,Yes,Available
+Miyapur - Hyderabad,2,835,59.27,0,No,Sold
+Hebbal - Bangalore,3,1530,146.83,4,No,Available
+Wakad - Pune,1,538,30.29,20,Yes,Sold
+Velachery - Chennai,2,1108,106.37,0,Yes,Available
+Navi Mumbai - Mumbai,3,1548,183.44,7,Yes,Available
+HSR Layout - Bangalore,3,1474,122.36,12,No,Sold
+Wakad - Pune,3,1633,126.16,3,Yes,Available
+HSR Layout - Bangalore,3,1567,169.75,6,Yes,Available
+Thane - Mumbai,1,569,60.27,8,Yes,Available
+Vasant Kunj - Delhi,4,2658,457.9,6,No,Available
+Sarjapur - Bangalore,2,999,67.85,3,No,Available
+Marathahalli - Bangalore,2,1189,88.67,12,Yes,Available
+Kondapur - Hyderabad,4,2493,232.91,10,Yes,Available
+Andheri - Mumbai,2,1027,177.94,8,Yes,Sold
+Vasant Kunj - Delhi,4,2630,631.4,2,Yes,Sold
+Whitefield - Bangalore,3,1508,112.9,0,No,Sold
+Indiranagar - Bangalore,2,995,155.21,0,Yes,Available
+Borivali - Mumbai,2,1021,199.8,0,Yes,Available
+Borivali - Mumbai,2,959,194.81,3,No,Available
+Powai - Mumbai,3,1557,319.0,5,No,Available
+Hebbal - Bangalore,3,1657,132.31,2,No,Available
+Hitech City - Hyderabad,3,1643,141.79,8,No,Sold
+Banjara Hills - Hyderabad,2,1020,162.5,0,No,Available
+Borivali - Mumbai,3,1724,301.7,5,Yes,Sold
+Gachibowli - Hyderabad,1,655,59.09,7,No,Available
+Navi Mumbai - Mumbai,1,534,55.82,8,Yes,Available
+Hitech City - Hyderabad,4,2873,285.05,8,Yes,Available
+Rohini - Delhi,1,588,47.39,15,Yes,Available
+Miyapur - Hyderabad,2,1053,66.24,2,Yes,Available
+Jubilee Hills - Hyderabad,2,1004,126.46,12,Yes,Sold
+Whitefield - Bangalore,3,1589,154.36,1,Yes,Available
+Kothrud - Pune,3,1636,191.09,4,Yes,Available
+Miyapur - Hyderabad,4,2406,150.0,6,Yes,Sold
+Electronic City - Bangalore,2,1097,81.46,0,Yes,Sold
+Rohini - Delhi,2,905,58.31,15,Yes,Available
+Anna Nagar - Chennai,2,1058,136.15,8,Yes,Sold
+Borivali - Mumbai,2,1105,158.36,12,No,Sold
+Gurgaon - Delhi,1,550,57.72,7,Yes,Available
+HSR Layout - Bangalore,2,1052,103.57,4,No,Sold
+Anna Nagar - Chennai,3,1314,151.71,2,Yes,Available
+Dwarka - Delhi,1,506,40.49,7,Yes,Available
+Indiranagar - Bangalore,2,1062,157.35,8,Yes,Available
+Kondapur - Hyderabad,2,1089,92.06,6,Yes,Sold
+Gachibowli - Hyderabad,3,1632,149.72,2,No,Sold
+Anna Nagar - Chennai,2,1110,146.46,1,Yes,Available
+Borivali - Mumbai,2,978,141.25,12,No,Available
+Koramangala - Bangalore,4,2450,362.42,6,Yes,Sold
+Miyapur - Hyderabad,3,1674,96.8,5,Yes,Available
+Madhapur - Hyderabad,2,1025,77.52,6,Yes,Available
+Hebbal - Bangalore,2,998,90.71,8,Yes,Sold
+Hitech City - Hyderabad,3,1416,149.33,8,Yes,Available
+Hebbal - Bangalore,3,1611,114.61,15,No,Sold
+Borivali - Mumbai,2,1132,208.89,3,Yes,Available
+Bandra - Mumbai,3,1598,861.34,3,Yes,Sold
+Kukatpally - Hyderabad,2,1144,69.96,20,No,Sold
+Sarjapur - Bangalore,3,1518,91.34,4,Yes,Sold
+Jubilee Hills - Hyderabad,2,1015,185.98,10,Yes,Available
+Wakad - Pune,2,1076,67.66,8,No,Available
+Navi Mumbai - Mumbai,2,913,98.39,10,Yes,Available
+Porur - Chennai,3,1604,120.42,8,Yes,Available
+Gurgaon - Delhi,3,1533,249.27,1,Yes,Sold
+Koramangala - Bangalore,3,1793,265.76,5,Yes,Sold
+Hadapsar - Pune,4,2248,153.75,12,Yes,Available
+Andheri - Mumbai,1,582,142.55,3,Yes,Sold
+Jubilee Hills - Hyderabad,2,1079,206.21,5,Yes,Available
+Thane - Mumbai,1,564,66.9,0,No,Available
+Hitech City - Hyderabad,3,1783,156.97,8,No,Available
+Madhapur - Hyderabad,3,1606,147.75,0,Yes,Sold
+Vasant Kunj - Delhi,3,1447,248.86,6,Yes,Available
+Sarjapur - Bangalore,2,1212,81.01,6,Yes,Sold
+Whitefield - Bangalore,4,2443,252.6,0,Yes,Sold
+Sarjapur - Bangalore,4,2453,192.28,8,Yes,Available
+Rohini - Delhi,2,1146,105.06,2,Yes,Sold
+OMR - Chennai,3,1615,93.55,10,Yes,Sold
+Electronic City - Bangalore,2,1050,69.54,8,Yes,Sold
+Noida Sector 62 - Delhi,2,1045,82.76,5,Yes,Sold
+Navi Mumbai - Mumbai,3,1485,144.88,3,Yes,Available
+Navi Mumbai - Mumbai,2,1182,111.01,5,Yes,Available
+Noida Sector 62 - Delhi,3,1600,133.89,0,Yes,Available
+Vasant Kunj - Delhi,3,1504,304.22,8,Yes,Sold
+OMR - Chennai,2,1040,63.71,6,Yes,Available
+Hitech City - Hyderabad,3,1744,174.92,6,Yes,Sold
+Gachibowli - Hyderabad,3,1629,134.71,20,Yes,Sold
+Hebbal - Bangalore,1,523,43.26,8,Yes,Sold
+Indiranagar - Bangalore,4,2463,456.24,3,Yes,Sold
+Gurgaon - Delhi,3,1694,263.33,5,Yes,Sold
+Gurgaon - Delhi,2,1046,139.88,6,Yes,Sold
+Hadapsar - Pune,1,537,31.3,2,No,Sold
+Dwarka - Delhi,1,514,41.52,8,Yes,Sold
+Kondapur - Hyderabad,2,1029,77.38,12,Yes,Sold
+Dwarka - Delhi,2,1019,128.38,0,Yes,Sold
+Bandra - Mumbai,1,596,297.76,3,Yes,Sold
+Electronic City - Bangalore,3,1501,104.97,1,Yes,Available
+Dwarka - Delhi,3,1236,107.13,8,Yes,Sold
+Hebbal - Bangalore,2,976,108.36,1,Yes,Sold
+Hitech City - Hyderabad,2,1046,107.45,10,No,Available
+Gachibowli - Hyderabad,2,1137,99.96,0,Yes,Sold
+Kukatpally - Hyderabad,2,1279,95.48,4,Yes,Sold
+HSR Layout - Bangalore,2,1004,112.8,4,Yes,Sold
+Miyapur - Hyderabad,2,1109,76.58,3,Yes,Available
+Porur - Chennai,1,509,27.29,8,Yes,Available
+Madhapur - Hyderabad,4,2357,191.86,15,Yes,Available
+Andheri - Mumbai,4,2072,558.79,8,Yes,Sold
+Gachibowli - Hyderabad,3,1500,136.84,8,Yes,Available
+HSR Layout - Bangalore,2,954,80.62,20,Yes,Sold
+Rohini - Delhi,3,1543,126.55,15,Yes,Available
+Anna Nagar - Chennai,3,1793,219.39,1,Yes,Available
+Rohini - Delhi,3,1837,139.51,12,No,Available
+Andheri - Mumbai,3,1468,340.91,15,Yes,Available
+Porur - Chennai,2,1253,74.56,8,Yes,Available
+Vasant Kunj - Delhi,2,1098,183.11,5,No,Available
+Electronic City - Bangalore,1,541,35.71,0,Yes,Available
+Hadapsar - Pune,2,975,68.11,5,Yes,Available
+Marathahalli - Bangalore,1,594,40.94,6,Yes,Available
+Thane - Mumbai,2,861,115.51,6,No,Available
+Madhapur - Hyderabad,2,990,89.5,5,Yes,Available
+Thane - Mumbai,2,1022,93.25,12,No,Sold
+Marathahalli - Bangalore,1,523,34.34,0,No,Available
+Gurgaon - Delhi,2,917,120.4,6,No,Available
+Wakad - Pune,3,1645,127.47,4,No,Available
+Indiranagar - Bangalore,2,981,118.92,10,No,Sold
+Borivali - Mumbai,2,1089,238.1,5,Yes,Available
+Koramangala - Bangalore,2,1083,152.17,6,Yes,Sold
+Vasant Kunj - Delhi,2,1086,148.04,12,Yes,Available
+Bandra - Mumbai,2,1161,404.06,15,Yes,Sold
+Sarjapur - Bangalore,1,523,29.54,10,Yes,Sold
+Jubilee Hills - Hyderabad,2,1067,186.21,7,Yes,Sold
+Gachibowli - Hyderabad,1,584,41.54,10,Yes,Sold
+Tambaram - Chennai,3,1599,104.74,8,Yes,Available
+Koramangala - Bangalore,2,965,136.94,0,Yes,Sold
+Anna Nagar - Chennai,2,1095,147.82,5,Yes,Available
+Jubilee Hills - Hyderabad,4,2378,482.72,3,No,Sold
+Thane - Mumbai,3,1676,211.98,4,Yes,Sold
+Velachery - Chennai,2,1214,99.97,10,No,Sold
+Miyapur - Hyderabad,1,601,29.15,4,No,Available
+Andheri - Mumbai,2,1137,251.49,5,Yes,Available
+Noida Sector 62 - Delhi,3,1796,123.88,12,No,Available
+Rohini - Delhi,2,1057,66.82,15,No,Available
+Kukatpally - Hyderabad,3,1573,92.36,15,Yes,Sold
+Hebbal - Bangalore,2,1069,103.27,3,Yes,Sold
+Tambaram - Chennai,2,976,50.43,10,No,Sold
+Kothrud - Pune,4,2378,246.55,8,Yes,Sold
+Banjara Hills - Hyderabad,2,1036,130.18,4,Yes,Sold
+Kothrud - Pune,3,1288,113.13,3,Yes,Available
+Bandra - Mumbai,2,1199,593.4,3,Yes,Sold
+OMR - Chennai,2,999,66.6,2,Yes,Available
+Dwarka - Delhi,4,2438,245.91,7,Yes,Available
+Kondapur - Hyderabad,2,843,80.26,3,Yes,Sold
+Gurgaon - Delhi,2,1115,146.32,2,No,Sold
+Kukatpally - Hyderabad,2,957,64.82,0,No,Sold
+Velachery - Chennai,2,1064,81.28,4,Yes,Available
+Koramangala - Bangalore,4,2622,423.38,10,No,Available
+Banjara Hills - Hyderabad,3,1506,209.7,2,Yes,Sold
+Hinjewadi - Pune,2,1047,82.3,2,Yes,Available
+Navi Mumbai - Mumbai,4,2124,285.67,5,Yes,Available
+Wakad - Pune,3,1710,116.89,6,No,Sold
+Borivali - Mumbai,2,1105,191.37,3,Yes,Available
+OMR - Chennai,1,473,30.89,7,Yes,Sold
+Porur - Chennai,3,1625,115.86,5,No,Available
+Bandra - Mumbai,3,1724,917.58,2,Yes,Sold
+Gurgaon - Delhi,2,1096,165.87,5,No,Available
+OMR - Chennai,2,1290,103.07,3,Yes,Available
