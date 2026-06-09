@@ -2,17 +2,18 @@
 ### AI-Powered Real Estate Forecasting Platform
 **Microsoft Agents League Hackathon 2026 — Creative Apps / GitHub Copilot Track**
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
-![Django](https://img.shields.io/badge/Django-5.2-green?style=flat-square&logo=django)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.8-orange?style=flat-square&logo=scikit-learn)
-![Groq](https://img.shields.io/badge/Groq-LLaMA3-yellow?style=flat-square)
-![GitHub Copilot](https://img.shields.io/badge/Built%20with-GitHub%20Copilot-black?style=flat-square&logo=github)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)](https://python.org)
+[![Django](https://img.shields.io/badge/Django-5.2-green?style=flat-square&logo=django)](https://djangoproject.com)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.8-orange?style=flat-square&logo=scikit-learn)](https://scikit-learn.org)
+[![Groq](https://img.shields.io/badge/Groq-LLaMA3-yellow?style=flat-square)](https://console.groq.com)
+[![Built With](https://img.shields.io/badge/Built%20with-GitHub%20Copilot-black?style=flat-square&logo=github)](https://github.com/features/copilot)
+[![ML Accuracy](https://img.shields.io/badge/ML%20Accuracy-92%25%20R²-27ae60?style=flat-square)]()
 
 ---
 
 ## 🚀 What is PropCast Agent?
 
-PropCast Agent is an AI-powered real estate forecasting web application that helps buyers, sellers, and investors make smarter property decisions in the Hyderabad market. It combines **Machine Learning price prediction (92% accuracy)**, **interactive data visualisation**, and **Groq LLaMA-powered AI insights** — all in one platform.
+PropCast Agent is an AI-powered real estate forecasting web application that helps buyers, sellers, and investors make smarter property decisions. It combines **Machine Learning price prediction (92% accuracy)**, **interactive Plotly visualisations**, and **Groq LLaMA-powered AI insights** — all in one platform.
 
 Built entirely using **GitHub Copilot** as an AI development partner throughout the entire development process.
 
@@ -27,7 +28,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 - There is **no easy tool** to analyse market trends without expertise
 - First-time buyers and investors **miss opportunities** due to lack of insights
 
-**PropCast Agent fixes this** by giving anyone — technical or not — a data-driven platform to understand, predict, and act on real estate market trends.
+**PropCast Agent fixes this** — giving anyone a data-driven platform to understand, predict, and act on real estate market trends.
 
 ---
 
@@ -35,14 +36,108 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 | Feature | Description |
 |---|---|
-| 📤 CSV Upload | Upload any Hyderabad property dataset |
-| 📊 Market Statistics | Instant descriptive analytics — avg price, price/sqft, distributions |
-| 📈 Interactive Charts | Plotly-powered charts — price trends, area comparisons, BHK analysis |
-| 🤖 ML Price Predictor | Random Forest model with **92% accuracy** |
+| 📤 CSV Upload | Upload any property dataset instantly |
+| 📊 Market Statistics | Avg price, highest, lowest, missing values — auto-detected |
+| 📈 Interactive Charts | Plotly-powered — price trends, BHK distribution, sold vs available |
+| 🤖 ML Price Predictor | Random Forest model with **92% R² accuracy** |
 | 💬 AI Chat Assistant | Ask anything about the market — powered by Groq LLaMA 3 |
 | 🧾 AI Summary & Insights | Auto-generated market insights from your dataset |
-| 🔍 Property Comparison | Side-by-side comparison view with Plotly charts |
-| 📄 PDF Export | Download a full report — charts, predictions, insights |
+| 🔍 Property Comparison | Side-by-side ML analysis with confidence scores |
+| 📄 PDF Export | Download full report — charts, predictions, insights |
+
+---
+
+## 🖥️ Application Demo
+
+### 1. Upload Your Property Data
+
+> Upload any structured property CSV. PropCast auto-detects columns, validates data, and kicks off the full ML pipeline in one click.
+
+![Upload Page](screenshots/001.png)
+
+---
+
+### 2. Instant Data Dashboard
+
+> After upload, PropCast processes 1,850+ properties and surfaces key stats immediately — average price, highest, lowest, missing values, column names, and a live data preview.
+
+![Data Dashboard](screenshots/002.png)
+
+**Sample dataset stats:**
+- 📦 1,850 Total Rows · 7 Columns · 0 Missing Values
+- 💰 Avg Price: ₹1.54 Crore · Max: ₹11.39 Crore · Min: ₹22 Lakhs
+- 📍 Auto-detected columns: `Location`, `BHK`, `Area_sqft`, `Price_Lakhs`, `Age_Years`, `Parking`, `Status`
+
+---
+
+### 3. Visual Analytics — See the Market
+
+> Three interactive Plotly charts render automatically from your data — price by location, sold vs available split, and BHK type distribution.
+
+![Visual Analytics](screenshots/003.png)
+
+---
+
+### 4. AI Analysis — Ask the Market
+
+> Groq LLaMA-powered AI generates automatic market summaries, surfaces hidden insights, and answers your natural language questions about the dataset.
+
+![AI Analysis](screenshots/004.png)
+
+> *Example query: "which area has high ROI?" — AI responds with data-grounded analysis.*
+
+---
+
+### 5. AI Price Predictor — Instant Forecast
+
+> Enter location, BHK type, area, and property age. Get a real-time ML price prediction with demand score, model accuracy, and confidence range.
+
+![Price Predictor](screenshots/005.png)
+
+**Sample prediction output:**
+- 🏠 Location: Anna Nagar - Chennai · 1200 sqft · 2 BHK · 5 years old
+- 💰 Estimated Price: **₹1.34 Crore**
+- 🎯 Model Accuracy: **90.3% R²**
+- 📊 Demand Score: **10.0 / 10**
+- 🌲 Model: Random Forest (100 trees) · Trained on 1,850 properties
+
+---
+
+### 6. Property Comparison — Select Your Properties
+
+> Step-based workflow. Select two properties from the dataset — red for Property 1, green for Property 2 — and run a full ML comparison.
+
+![Property Selection](screenshots/006.png)
+
+---
+
+### 7. Comparison Results — ML-Powered Verdict
+
+> Side-by-side breakdown with actual vs predicted prices, confidence intervals, price-per-sqft comparison, and a clear winner declaration.
+
+![Comparison Results](screenshots/007.png)
+
+**Sample: Hitech City, Hyderabad vs Vasant Kunj, Delhi**
+
+| Metric | Hitech City - Hyderabad ✅ | Vasant Kunj - Delhi |
+|---|---|---|
+| Asking Price | ₹120.88L | ₹512.42L |
+| Area | 1517 sqft | 2375 sqft |
+| Price/sqft | ₹7,968 | ₹21,576 |
+| ML Predicted | ₹134.3L | ₹510.56L |
+| Confidence | 94.6% | 94.6% |
+
+> 🏆 **Winner: Hitech City, Hyderabad** — better value based on price-per-sqft and ML analysis.
+
+**Model: 92.7% cross-validated R²**
+
+---
+
+### 8. Visual Comparison Charts — Interactive Analysis
+
+> Scatter plot of all 1,850 properties with both selected highlighted, grouped metrics bar chart, and actual vs ML predicted price chart.
+
+![Visual Comparison](screenshots/008.png)
 
 ---
 
@@ -50,14 +145,15 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 | Layer | Technology |
 |---|---|
-| Backend | Django 5.2 |
-| ML Model | Scikit-learn (Random Forest Regressor) |
+| Backend | Django 5.2 (Python) |
+| ML Model | Scikit-learn — Random Forest Regressor |
 | Data Processing | Pandas, NumPy |
-| Charts | Plotly |
+| Visualisations | Plotly |
 | AI / LLM | Groq API (LLaMA 3) |
 | PDF Export | ReportLab |
 | Database | SQLite |
-| AI Dev Tool | GitHub Copilot (VS Code) |
+| Deployment | Docker + Render.com |
+| AI Dev Tool | **GitHub Copilot (VS Code)** |
 
 ---
 
@@ -69,14 +165,14 @@ PropCast-Agent/
 ├── PropCast/               # Django app — views, models, URLs
 ├── core/                   # Core settings and configuration
 ├── templates/              # HTML templates
-│   ├── compare.html        # Property comparison view
+│   ├── compare.html
 │   └── properties_list.html
-├── media/                  # Uploaded CSV files (auto-created, gitignored)
-├── sample_properties.csv   # Sample Hyderabad dataset to get started
+├── screenshots/            # Demo screenshots (001–008.png)
+├── sample_properties.csv   # Sample dataset to get started
 ├── create_sample.py        # Script to generate sample data
 ├── manage.py               # Django entry point
-├── requirements.txt        # All Python dependencies
-├── Dockerfile              # Docker configuration
+├── requirements.txt        # Python dependencies
+├── Dockerfile
 ├── COMPARISON_FEATURE_GUIDE.md
 └── PropCast_Complete_Guide.pdf
 ```
@@ -86,173 +182,78 @@ PropCast-Agent/
 ## ⚙️ How to Run Locally
 
 ### Prerequisites
-
-Make sure you have the following installed on your system:
-
-- **Python 3.10 or above** → [Download here](https://www.python.org/downloads/)
-- **pip** (comes with Python)
-- **Git** → [Download here](https://git-scm.com/)
-- A **Groq API key** (free) → [Get one here](https://console.groq.com/)
-
----
-
-### Step 1 — Clone the Repository
+- Python 3.10+ · pip · Git
+- Groq API key (free) → [console.groq.com](https://console.groq.com)
 
 ```bash
+# 1. Clone
 git clone https://github.com/rahulachari/PropCast-Agent.git
 cd PropCast-Agent
-```
 
----
-
-### Step 2 — Create a Virtual Environment
-
-**Windows:**
-```bash
+# 2. Virtual environment
 python -m venv venv
-venv\Scripts\activate
-```
+venv\Scripts\activate        # Windows
+source venv/bin/activate     # Mac / Linux
 
-**Mac / Linux:**
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-You should see `(venv)` in your terminal — that means it's active.
-
----
-
-### Step 3 — Install Dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
-This installs everything — Django, Pandas, Scikit-learn, Plotly, Groq, ReportLab, and all other required packages.
+# 4. Create .env file and add:
+# GROQ_API_KEY=your_key_here
+# SECRET_KEY=your_django_secret_key
+# DEBUG=True
 
----
-
-### Step 4 — Set Up Environment Variables
-
-Create a `.env` file in the root folder:
-
-```bash
-# Windows
-echo. > .env
-
-# Mac / Linux
-touch .env
-```
-
-Open the `.env` file and add:
-
-```
-GROQ_API_KEY=your_groq_api_key_here
-SECRET_KEY=your_django_secret_key_here
-DEBUG=True
-```
-
-> 🔑 Get your free Groq API key at [console.groq.com](https://console.groq.com/)
-> 
-> 🔐 For Django SECRET_KEY, you can generate one by running:
-> ```bash
-> python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
-> ```
-
----
-
-### Step 5 — Run Database Migrations
-
-```bash
+# 5. Migrate
 python manage.py migrate
-```
 
----
-
-### Step 6 — Start the Server
-
-```bash
+# 6. Run
 python manage.py runserver
 ```
 
-Open your browser and go to:
-```
-http://127.0.0.1:8000
-```
-
-🎉 PropCast Agent is now running locally!
+Open `http://127.0.0.1:8000` — upload `sample_properties.csv` and go.
 
 ---
 
-## 📂 Sample Dataset
-
-A sample Hyderabad property dataset is included in the repo — `sample_properties.csv`.
-
-Use this to test the app immediately after setup:
-1. Open the app in your browser
-2. Upload `sample_properties.csv`
-3. Explore stats, charts, predictions, and AI insights
-
-You can also generate a fresh sample dataset by running:
-```bash
-python create_sample.py
-```
-
----
-
-## 🤖 GitHub Copilot — The AI Development Partner
-
-This entire project was built using **GitHub Copilot** in VS Code as an AI-assisted development tool. Copilot helped with:
-
-- Writing Django views and URL routing
-- Building optimised Pandas data pipelines
-- Completing Scikit-learn ML pipeline code
-- Generating Plotly chart configurations
-- Debugging and refactoring throughout development
-
-> GitHub Copilot didn't just autocomplete — it accelerated the entire development workflow, making it possible to build a full-stack AI platform within the hackathon timeline.
-
----
-
-## 📊 ML Model Details
-
-- **Algorithm:** Random Forest Regressor
-- **Library:** Scikit-learn 1.8
-- **Accuracy:** 92%
-- **Features used:** Area (sq ft), Location, BHK, Property Type, Amenities
-- **Data:** Hyderabad real estate dataset (cleaned with Pandas)
-
----
-
-## 🔑 Required API Keys
-
-| Service | Purpose | How to Get |
-|---|---|---|
-| Groq API | AI chat, summaries, insights | [console.groq.com](https://console.groq.com/) — Free tier available |
-
----
-
-## 🐳 Run with Docker (Optional)
-
-If you prefer Docker:
+## 🐳 Run with Docker
 
 ```bash
 docker build -t propcast-agent .
 docker run -p 8000:8000 propcast-agent
 ```
 
-Then open `http://localhost:8000`
+---
+
+## 🤖 How GitHub Copilot Accelerated This Build
+
+Copilot was an active development partner — not just autocomplete:
+
+- **ML Pipeline** — Feature engineering suggestions, model evaluation, preprocessing logic
+- **Django Backend** — URL routing, view logic, API endpoint edge cases
+- **Plotly Charts** — Chart configurations, responsive layout components
+- **Deployment** — Dockerfile setup, Render environment variable handling
+
+> Built solo. Shipped production-ready. Copilot made it possible at this speed and quality.
 
 ---
 
-## 👤 About the Developer
+## 📊 ML Model Details
 
-**Rahul Achari**
-B.Tech CSE Graduate — The Apollo University, Chittoor, Andhra Pradesh
+| Metric | Value |
+|---|---|
+| Algorithm | Random Forest Regressor (100 trees) |
+| Library | Scikit-learn 1.8 |
+| Accuracy | **92% R²** cross-validated |
+| Training Data | 1,850 properties |
+| Features | Location, BHK, Area sqft, Age, Parking |
 
-- 🐙 GitHub: [github.com/rahulachari](https://github.com/rahulachari)
-- 🌐 Portfolio: [rahulachari.github.io](https://rahulachari.github.io)
+---
+
+## 👤 Developer
+
+**Rahul Achari** — B.Tech CSE, The Apollo University, Chittoor, AP · CGPA 8.10
+
+[![GitHub](https://img.shields.io/badge/GitHub-rahulachari-1d1d1f?style=flat-square&logo=github)](https://github.com/rahulachari)
+[![Portfolio](https://img.shields.io/badge/Portfolio-rahulachari.github.io-0066cc?style=flat-square)](https://rahulachari.github.io)
 
 ---
 
@@ -260,10 +261,10 @@ B.Tech CSE Graduate — The Apollo University, Chittoor, Andhra Pradesh
 
 Built for the **Microsoft Agents League Hackathon 2026**
 Track: 🎨 Creative Apps / GitHub Copilot
-Submission Deadline: June 14, 2026
+Deadline: June 14, 2026
 
 ---
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+MIT License — open source and free to use.
