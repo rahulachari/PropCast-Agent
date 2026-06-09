@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PropCast — Property Comparison</title>
+  <script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-canvas:   #0d1117;
+      --bg-subtle:   #161b22;
+      --bg-inset:    #010409;
+      --border:      #30363d;
+      --border-muted:#21262d;
+      --fg-default:  #e6edf3;
+      --fg-muted:    #8b949e;
+      --fg-subtle:   #6e7681;
+      --accent-fg:   #58a6ff;
+      --accent-em:   #1f6feb;
+      --success-fg:  #3fb950;
+      --success-em:  #238636;
+      --danger-fg:   #f85149;
+      --warning-fg:  #d29922;
+      --done-fg:     #a371f7;
+      --p1:          #ff6b6b;
+      --p2:          #3fb950;
+      --radius-sm:   6px;
+      --radius-md:   12px;
+      --radius-lg:   16px;
+    }
+
+    body {
+      background: var(--bg-canvas);
+      color: var(--fg-default);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* ── NAVBAR ──────────────────────────────────────────── */
+    .navbar {
+      background: rgba(13,17,23,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .navbar-brand {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none; color: var(--fg-default);
+      font-weight: 600; font-size: 15px;
+    }
+    .logo-icon {
+      width: 32px; height: 32px;
+      background: linear-gradient(135deg, var(--accent-em), var(--done-fg));
+      border-radius: var(--radius-sm);
+      display: flex; align-items: center; justify-content: center; font-size: 16px;
+    }
+    .nav-links { display: flex; gap: 4px; }
+    .nav-link {
+      color: var(--fg-muted); text-decoration: none;
+      padding: 6px 12px; border-radius: var(--radius-sm);
+      font-size: 13px; font-weight: 500; transition: all 0.15s;
+    }
+    .nav-link:hover { color: var(--fg-default); background: var(--bg-subtle); }
+    .nav-link.active { color: var(--fg-default); }
+
+    /* ── PAGE HEADER ─────────────────────────────────────── */
+    .page-header {
+      background: linear-gradient(180deg, rgba(31,111,235,0.06) 0%, transparent 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 32px 24px 24px;
+    }
+    .header-inner {
+      max-width: 1200px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;
+    }
+    .header-left h1 { font-size: 22px; font-weight: 700; color: var(--fg-default); letter-spacing: -0.3px; }
+    .header-left p { color: var(--fg-muted); font-size: 13px; margin-top: 4px; }
+    .header-right { display: flex; gap: 8px; }
+    .btn { display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; border-radius: var(--radius-sm); font-size: 13px; font-weight: 500; cursor: pointer; text-decoration: none; border: 1px solid; transition: all 0.15s; font-family: inherit; }
+    .btn-ghost { color: var(--fg-muted); border-color: var(--border); background: transparent; }
+    .btn-ghost:hover { color: var(--fg-default); background: var(--bg-subtle); }
+    .btn-primary { color: #fff; border-color: rgba(63,185,80,0.4); background: var(--success-em); }
+    .btn-primary:hover { background: #2ea043; }
+
+    /* ── MODEL ACCURACY BANNER ───────────────────────────── */
+    .accuracy-banner {
+      max-width: 1200px; margin: 20px auto 0;
+      background: rgba(31,111,235,0.08);
+      border: 1px solid rgba(88,166,255,0.2);
+      border-radius: var(--radius-md);
+      padding: 12px 20px;
+      display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+    }
+    .accuracy-banner .label {
+      color: var(--fg-muted); font-size: 12px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .accuracy-banner .score {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 20px; font-weight: 700; color: var(--accent-fg);
+    }
+    .progress-wrap { flex: 1; min-width: 200px; }
+    .progress-bar-bg {
+      height: 6px; background: var(--border-muted); border-radius: 3px; overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%; border-radius: 3px;
+      background: linear-gradient(90deg, var(--accent-em), var(--done-fg));
+      transition: width 1s ease;
+    }
+    .accuracy-detail { font-size: 11px; color: var(--fg-subtle); font-family: 'JetBrains Mono', monospace; }
+
+    /* ── MAIN ────────────────────────────────────────────── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 28px 24px; }
+
+    /* ── SIDE BY SIDE CARDS ──────────────────────────────── */
+    .comparison-grid {
+      display: grid; grid-template-columns: 1fr 80px 1fr; gap: 0;
+      margin-bottom: 28px; align-items: stretch;
+    }
+    .prop-card {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+    }
+    .prop-card.p1-card { border-color: rgba(255,107,107,0.4); }
+    .prop-card.p2-card { border-color: rgba(63,185,80,0.4); }
+
+    .card-header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-muted);
+      display: flex; align-items: center; gap: 12px;
+    }
+    .card-header.p1 { background: rgba(255,107,107,0.08); }
+    .card-header.p2 { background: rgba(63,185,80,0.08); }
+    .prop-badge {
+      font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 20px;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .p1 .prop-badge { background: rgba(255,107,107,0.2); color: var(--p1); border: 1px solid rgba(255,107,107,0.3); }
+    .p2 .prop-badge { background: rgba(63,185,80,0.2);  color: var(--p2); border: 1px solid rgba(63,185,80,0.3); }
+    .prop-title { font-weight: 600; font-size: 14px; color: var(--fg-default); }
+    .prop-price-header {
+      margin-left: auto; text-align: right;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .prop-price-header .amount { font-size: 20px; font-weight: 700; color: var(--fg-default); }
+    .prop-price-header .unit { font-size: 11px; color: var(--fg-muted); }
+
+    .card-body { padding: 20px; }
+    .stat-row {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 9px 0; border-bottom: 1px solid var(--border-muted);
+    }
+    .stat-row:last-child { border-bottom: none; }
+    .stat-label { color: var(--fg-muted); font-size: 12px; display: flex; align-items: center; gap: 6px; }
+    .stat-value { font-size: 13px; font-weight: 600; color: var(--fg-default); font-family: 'JetBrains Mono', monospace; }
+    .stat-value.better { color: var(--success-fg); }
+    .stat-value.worse  { color: var(--danger-fg); }
+
+    /* ── ML PREDICTION BLOCK inside card ────────────────── */
+    .ml-block {
+      margin-top: 16px;
+      background: var(--bg-inset);
+      border: 1px solid var(--border-muted);
+      border-radius: var(--radius-md);
+      padding: 14px 16px;
+    }
+    .ml-block .ml-title {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.8px; color: var(--fg-subtle); margin-bottom: 10px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .ml-prices {
+      display: flex; gap: 16px; margin-bottom: 10px;
+    }
+    .ml-price-item { flex: 1; }
+    .ml-price-item .mlp-label { font-size: 10px; color: var(--fg-subtle); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 3px; }
+    .ml-price-item .mlp-value { font-size: 16px; font-weight: 700; font-family: 'JetBrains Mono', monospace; }
+    .mlp-actual  { color: var(--fg-muted); }
+    .mlp-predicted { color: var(--accent-fg); }
+    .conf-row { display: flex; align-items: center; gap: 10px; }
+    .conf-label { font-size: 11px; color: var(--fg-subtle); white-space: nowrap; }
+    .conf-bar-bg { flex: 1; height: 6px; background: var(--border-muted); border-radius: 3px; overflow: hidden; }
+    .conf-bar-fill { height: 100%; border-radius: 3px; transition: width 1.2s ease; }
+    .conf-val { font-size: 12px; font-weight: 700; font-family: 'JetBrains Mono', monospace; white-space: nowrap; }
+
+    /* ── VS DIVIDER ──────────────────────────────────────── */
+    .vs-divider {
+      display: flex; align-items: center; justify-content: center;
+    }
+    .vs-circle {
+      width: 56px; height: 56px; border-radius: 50%;
+      background: var(--bg-canvas); border: 2px solid var(--border);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 13px; font-weight: 800; color: var(--fg-muted);
+      font-family: 'JetBrains Mono', monospace;
+      box-shadow: 0 0 0 4px var(--bg-canvas);
+    }
+
+    /* ── VERDICT BANNER ──────────────────────────────────── */
+    .verdict {
+      margin-bottom: 28px;
+      border-radius: var(--radius-md);
+      padding: 16px 20px;
+      display: flex; align-items: center; gap: 16px;
+      border: 1px solid;
+    }
+    .verdict.v1 { background: rgba(255,107,107,0.08); border-color: rgba(255,107,107,0.3); }
+    .verdict.v2 { background: rgba(63,185,80,0.08);   border-color: rgba(63,185,80,0.3); }
+    .verdict .icon { font-size: 24px; }
+    .verdict .vtext h3 { font-size: 15px; font-weight: 700; }
+    .verdict.v1 .vtext h3 { color: var(--p1); }
+    .verdict.v2 .vtext h3 { color: var(--p2); }
+    .verdict .vtext p { font-size: 13px; color: var(--fg-muted); margin-top: 2px; }
+
+    /* ── CHART SECTION ───────────────────────────────────── */
+    .section-title {
+      font-size: 15px; font-weight: 600; color: var(--fg-default);
+      margin-bottom: 16px; display: flex; align-items: center; gap: 8px;
+    }
+    .section-title .pill {
+      font-size: 10px; padding: 2px 8px; border-radius: 20px;
+      background: rgba(88,166,255,0.1); color: var(--accent-fg);
+      border: 1px solid rgba(88,166,255,0.2);
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .chart-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--border-muted);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+    }
+    .chart-box.full-width { grid-column: 1 / -1; }
+    .chart-box .chart-inner { padding: 4px; }
+
+    .plotly-chart { width: 100%; }
+
+    /* ── ERROR ───────────────────────────────────────────── */
+    .error-box {
+      background: rgba(248,81,73,0.1);
+      border: 1px solid rgba(248,81,73,0.3);
+      border-radius: var(--radius-md); padding: 16px 20px;
+      color: var(--danger-fg); white-space: pre-wrap; font-family: 'JetBrains Mono', monospace; font-size: 12px;
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────────── */
+    @media (max-width: 768px) {
+      .comparison-grid { grid-template-columns: 1fr; }
+      .vs-divider { display: none; }
+      .chart-grid { grid-template-columns: 1fr; }
+      .chart-box.full-width { grid-column: auto; }
+    }
+
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-subtle); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="/" class="navbar-brand">
+    <div class="logo-icon">🏠</div>
+    PropCast
+  </a>
+  <div class="nav-links">
+    <a href="/" class="nav-link">Dashboard</a>
+    <a href="/predict/" class="nav-link">Predict</a>
+    <a href="/properties/" class="nav-link active">Compare</a>
+  </div>
+</nav>
+
+<!-- PAGE HEADER -->
+<div class="page-header">
+  <div class="header-inner">
+    <div class="header-left">
+      <h1>⚖️ Property Comparison</h1>
+      <p>AI-powered side-by-side analysis with Random Forest ML price prediction</p>
+    </div>
+    <div class="header-right">
+      <a href="/properties/" class="btn btn-ghost">← Select Different</a>
+      <a href="/" class="btn btn-ghost">Dashboard</a>
+    </div>
+  </div>
+
+  {% if model_accuracy %}
+  <!-- MODEL ACCURACY BANNER -->
+  <div class="accuracy-banner" style="max-width:1200px; margin: 16px auto 0;">
+    <div class="label">🤖 Random Forest Model</div>
+    <div class="score">{{ model_accuracy }}%</div>
+    <div class="progress-wrap">
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="modelAccBar" style="width: 0%"></div>
+      </div>
+      <div class="accuracy-detail" style="margin-top:4px;">Cross-validated accuracy (R² score) on your dataset</div>
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+<!-- MAIN -->
+<div class="container">
+
+  {% if error %}
+  <div class="error-box">{{ error }}</div>
+
+  {% else %}
+
+  <!-- VERDICT -->
+  {% if winner == 1 %}
+  <div class="verdict v1">
+    <div class="icon">🏆</div>
+    <div class="vtext">
+      <h3>Property 1 is the Better Deal</h3>
+      <p>{{ prop1.Location }} offers better value based on price-per-sqft and ML analysis.</p>
+    </div>
+  </div>
+  {% elif winner == 2 %}
+  <div class="verdict v2">
+    <div class="icon">🏆</div>
+    <div class="vtext">
+      <h3>Property 2 is the Better Deal</h3>
+      <p>{{ prop2.Location }} offers better value based on price-per-sqft and ML analysis.</p>
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- SIDE BY SIDE PROPERTY CARDS -->
+  <div class="comparison-grid">
+
+    <!-- PROPERTY 1 -->
+    <div class="prop-card p1-card">
+      <div class="card-header p1">
+        <span class="prop-badge">Property 1</span>
+        <span class="prop-title">{{ prop1.Location }}</span>
+        <div class="prop-price-header">
+          <div class="amount">₹{{ prop1.Price_Lakhs }}L</div>
+          <div class="unit">asking price</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="stat-row">
+          <span class="stat-label">📐 Area</span>
+          <span class="stat-value {% if prop1.Area_sqft >= prop2.Area_sqft %}better{% endif %}">{{ prop1.Area_sqft }} sqft</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">🏠 BHK</span>
+          <span class="stat-value">{{ prop1.BHK }} BHK</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">💰 Price/sqft</span>
+          <span class="stat-value {% if p1_ppsf <= p2_ppsf %}better{% else %}worse{% endif %}">₹{{ p1_ppsf }}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">📅 Age</span>
+          <span class="stat-value {% if prop1.Age_Years <= prop2.Age_Years %}better{% endif %}">{{ prop1.Age_Years }} years</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">🅿 Parking</span>
+          <span class="stat-value">{{ prop1.Parking }}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">📊 Status</span>
+          <span class="stat-value">{{ prop1.Status }}</span>
+        </div>
+
+        <!-- ML Prediction -->
+        {% if ml1 %}
+        <div class="ml-block">
+          <div class="ml-title">🤖 ML Price Analysis</div>
+          <div class="ml-prices">
+            <div class="ml-price-item">
+              <div class="mlp-label">Actual</div>
+              <div class="mlp-value mlp-actual">₹{{ ml1.actual }}L</div>
+            </div>
+            <div class="ml-price-item">
+              <div class="mlp-label">ML Predicted</div>
+              <div class="mlp-value mlp-predicted">₹{{ ml1.predicted }}L</div>
+            </div>
+            <div class="ml-price-item">
+              <div class="mlp-label">Accuracy</div>
+              <div class="mlp-value" style="color:var(--success-fg)">{{ ml1.accuracy }}%</div>
+            </div>
+          </div>
+          <div class="conf-row">
+            <span class="conf-label">Confidence</span>
+            <div class="conf-bar-bg">
+              <div class="conf-bar-fill" id="conf1bar"
+                   style="width:0%; background: linear-gradient(90deg,#1f6feb,#a371f7)"></div>
+            </div>
+            <span class="conf-val" style="color:var(--accent-fg)">{{ ml1.confidence }}%</span>
+          </div>
+          <div style="font-size:11px; color:var(--fg-subtle); margin-top:6px; font-family:'JetBrains Mono',monospace;">
+            Range: ₹{{ ml1.lower }}L – ₹{{ ml1.upper }}L
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <!-- VS -->
+    <div class="vs-divider">
+      <div class="vs-circle">VS</div>
+    </div>
+
+    <!-- PROPERTY 2 -->
+    <div class="prop-card p2-card">
+      <div class="card-header p2">
+        <span class="prop-badge">Property 2</span>
+        <span class="prop-title">{{ prop2.Location }}</span>
+        <div class="prop-price-header">
+          <div class="amount">₹{{ prop2.Price_Lakhs }}L</div>
+          <div class="unit">asking price</div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="stat-row">
+          <span class="stat-label">📐 Area</span>
+          <span class="stat-value {% if prop2.Area_sqft >= prop1.Area_sqft %}better{% endif %}">{{ prop2.Area_sqft }} sqft</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">🏠 BHK</span>
+          <span class="stat-value">{{ prop2.BHK }} BHK</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">💰 Price/sqft</span>
+          <span class="stat-value {% if p2_ppsf <= p1_ppsf %}better{% else %}worse{% endif %}">₹{{ p2_ppsf }}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">📅 Age</span>
+          <span class="stat-value {% if prop2.Age_Years <= prop1.Age_Years %}better{% endif %}">{{ prop2.Age_Years }} years</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">🅿 Parking</span>
+          <span class="stat-value">{{ prop2.Parking }}</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">📊 Status</span>
+          <span class="stat-value">{{ prop2.Status }}</span>
+        </div>
+
+        {% if ml2 %}
+        <div class="ml-block">
+          <div class="ml-title">🤖 ML Price Analysis</div>
+          <div class="ml-prices">
+            <div class="ml-price-item">
+              <div class="mlp-label">Actual</div>
+              <div class="mlp-value mlp-actual">₹{{ ml2.actual }}L</div>
+            </div>
+            <div class="ml-price-item">
+              <div class="mlp-label">ML Predicted</div>
+              <div class="mlp-value mlp-predicted">₹{{ ml2.predicted }}L</div>
+            </div>
+            <div class="ml-price-item">
+              <div class="mlp-label">Accuracy</div>
+              <div class="mlp-value" style="color:var(--success-fg)">{{ ml2.accuracy }}%</div>
+            </div>
+          </div>
+          <div class="conf-row">
+            <span class="conf-label">Confidence</span>
+            <div class="conf-bar-bg">
+              <div class="conf-bar-fill" id="conf2bar"
+                   style="width:0%; background: linear-gradient(90deg,#238636,#3fb950)"></div>
+            </div>
+            <span class="conf-val" style="color:var(--success-fg)">{{ ml2.confidence }}%</span>
+          </div>
+          <div style="font-size:11px; color:var(--fg-subtle); margin-top:6px; font-family:'JetBrains Mono',monospace;">
+            Range: ₹{{ ml2.lower }}L – ₹{{ ml2.upper }}L
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- ── CHARTS ── -->
+  <div class="section-title">
+    📊 Visual Analysis <span class="pill">Interactive · Hover to explore</span>
+  </div>
+
+  <!-- Charts grid -->
+  <div class="chart-grid">
+    <!-- Scatter: Price vs Area (full width) -->
+    <div class="chart-box full-width">
+      <div class="chart-inner">
+        <div id="chart-scatter" class="plotly-chart"></div>
+      </div>
+    </div>
+
+    <!-- Bar: Metrics comparison -->
+    <div class="chart-box">
+      <div class="chart-inner">
+        <div id="chart-bar" class="plotly-chart"></div>
+      </div>
+    </div>
+
+    <!-- Bar: ML prediction -->
+    <div class="chart-box">
+      <div class="chart-inner">
+        <div id="chart-ml" class="plotly-chart"></div>
+      </div>
+    </div>
+  </div>
+
+  {% endif %}
+</div>
+
+<!-- PLOTLY RENDER SCRIPT -->
+<script>
+  // Animate progress bars after load
+  window.addEventListener('load', function() {
+    setTimeout(() => {
+      const modelAcc = {{ model_accuracy|default:"0" }};
+      const bar = document.getElementById('modelAccBar');
+      if (bar) bar.style.width = modelAcc + '%';
+
+      const c1 = document.getElementById('conf1bar');
+      const c2 = document.getElementById('conf2bar');
+      {% if ml1 %}if (c1) c1.style.width = '{{ ml1.confidence }}%';{% endif %}
+      {% if ml2 %}if (c2) c2.style.width = '{{ ml2.confidence }}%';{% endif %}
+    }, 300);
+  });
+
+  // Render Plotly charts
+  {% if chart_scatter %}
+  try {
+    const scatterData = {{ chart_scatter|safe }};
+    Plotly.newPlot('chart-scatter', scatterData.data, scatterData.layout, {
+      responsive: true,
+      displayModeBar: true,
+      displaylogo: false,
+      modeBarButtonsToRemove: ['sendDataToCloud', 'lasso2d', 'select2d'],
+      toImageButtonOptions: { format: 'png', filename: 'propcast-scatter' }
+    });
+  } catch(e) { document.getElementById('chart-scatter').innerHTML = '<p style="color:#8b949e;padding:20px">Chart error: ' + e.message + '</p>'; }
+  {% endif %}
+
+  {% if chart_bar %}
+  try {
+    const barData = {{ chart_bar|safe }};
+    Plotly.newPlot('chart-bar', barData.data, barData.layout, {
+      responsive: true,
+      displayModeBar: false,
+      displaylogo: false,
+    });
+  } catch(e) { document.getElementById('chart-bar').innerHTML = '<p style="color:#8b949e;padding:20px">Chart error: ' + e.message + '</p>'; }
+  {% endif %}
+
+  {% if chart_ml %}
+  try {
+    const mlData = {{ chart_ml|safe }};
+    Plotly.newPlot('chart-ml', mlData.data, mlData.layout, {
+      responsive: true,
+      displayModeBar: false,
+      displaylogo: false,
+    });
+  } catch(e) { document.getElementById('chart-ml').innerHTML = '<p style="color:#8b949e;padding:20px">Chart error: ' + e.message + '</p>'; }
+  {% endif %}
+</script>
+
+</body>
+</html>
