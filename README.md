@@ -57,7 +57,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Upload any structured property CSV. PropCast auto-detects columns, validates data, and kicks off the full ML pipeline in one click.
 
-![Upload Page](screenshots/001.png)
+![Upload Page](screenshots/001.webp)
 
 ---
 
@@ -65,7 +65,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > After upload, PropCast processes 1,850+ properties and surfaces key stats immediately — average price, highest, lowest, missing values, column names, and a live data preview.
 
-![Data Dashboard](screenshots/002.png)
+![Data Dashboard](screenshots/002.webp)
 
 **Sample dataset stats:**
 - 📦 1,850 Total Rows · 7 Columns · 0 Missing Values
@@ -78,7 +78,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Three interactive Plotly charts render automatically from your data — price by location, sold vs available split, and BHK type distribution.
 
-![Visual Analytics](screenshots/003.png)
+![Visual Analytics](screenshots/003.webp)
 
 ---
 
@@ -86,7 +86,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Groq LLaMA-powered AI generates automatic market summaries, surfaces hidden insights, and answers your natural language questions about the dataset.
 
-![AI Analysis](screenshots/004.png)
+![AI Analysis](screenshots/004.webp)
 
 > *Example query: "which area has high ROI?" — AI responds with data-grounded analysis.*
 
@@ -96,7 +96,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Enter location, BHK type, area, and property age. Get a real-time ML price prediction with demand score, model accuracy, and confidence range.
 
-![Price Predictor](screenshots/005.png)
+![Price Predictor](screenshots/005.webp)
 
 **Sample prediction output:**
 - 🏠 Location: Anna Nagar - Chennai · 1200 sqft · 2 BHK · 5 years old
@@ -111,7 +111,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Step-based workflow. Select two properties from the dataset — red for Property 1, green for Property 2 — and run a full ML comparison.
 
-![Property Selection](screenshots/006.png)
+![Property Selection](screenshots/006.webp)
 
 ---
 
@@ -119,7 +119,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Side-by-side breakdown with actual vs predicted prices, confidence intervals, price-per-sqft comparison, and a clear winner declaration.
 
-![Comparison Results](screenshots/007.png)
+![Comparison Results](screenshots/007.webp)
 
 **Sample: Hitech City, Hyderabad vs Vasant Kunj, Delhi**
 
@@ -141,7 +141,7 @@ The Indian real estate market — especially Hyderabad — is booming. But:
 
 > Scatter plot of all 1,850 properties with both selected highlighted, grouped metrics bar chart, and actual vs ML predicted price chart.
 
-![Visual Comparison](screenshots/008.png)
+![Visual Comparison](screenshots/008.webp)
 
 ---
 
@@ -171,7 +171,7 @@ PropCast-Agent/
 ├── templates/              # HTML templates
 │   ├── compare.html
 │   └── properties_list.html
-├── screenshots/            # Demo screenshots (001–008.png)
+├── screenshots/            # Demo screenshots (001–008.webp)
 ├── sample_properties.csv   # Sample dataset to get started
 ├── create_sample.py        # Script to generate sample data
 ├── manage.py               # Django entry point
